@@ -1,0 +1,32 @@
+- name: Craig Costello
+  image: images/people/costello.jpg
+  title: Researcher
+  affiliation: Microsoft Research
+  bio: 
+  - Craig Costello is a researcher in cryptography at Microsoft in the USA. He works on cryptographic applications of computational number theory, and in recent years his focus has been on post-quantum cryptography.
+  - Craig graduated with a PhD from the Queensland University of Technology in Australia and was a Fulbright scholar at the University of California, Irvine. Previous to his current position, he was a postdoctoral fellow at both Technische Universiteit Eindhoven in the Netherlands and at Microsoft Research in the USA.
+- name: Tetsu Iwata
+  image: images/people/iwata.jpg
+  title: Associate Professor, Department of Computational Science and Engineering
+  affiliation: Nagoya University (Japan)
+  bio: 
+  - Tetsu Iwata is an Associate Professor at Nagoya University, Japan. He works on design and analysis of various symmetric key cryptosystems. He is one of the designers of CMAC (Cipher-based Message Authentication Code), which was adopted by NIST as a recommended block cipher mode of operation in 2005. In recent years, he is also interested in quantum security of symmetric key cryptosystems. He was the general co-chair of FSE 2017, and the program co-chairs of FSE 2010, Asiacrypt 2014, and Asiacrypt 2015.
+- name: Seny Kamara
+  image: images/people/kamara.jpg
+  title: Associate Professor of Computer Science
+  affiliation: Brown University
+  bio: 
+  - Seny Kamara is an Associate Professor of Computer Science at Brown University. Before joining Brown, he was a researcher at Microsoft Research (Redmond Lab). His research is in cryptography and is driven by real-world problems from privacy, security and surveillance. His primary focus is on the design and cryptanalysis of encrypted algorithms, which are efficient algorithms that operate on end-to-end encrypted data. He maintains interests in various aspects of theory and systems, including applied and theoretical cryptography, data structures and algorithms, data systems, algorithmic fairness, game theory and technology policy.
+- name: Nele Mentens
+  image: images/people/mentens.jpg
+  title: Associate Professor
+  affiliation: Katholieke Universiteit (KU) Leuven
+  bio: 
+  - Nele Mentens received her master and PhD degree from Katholieke Universiteit (KU) Leuven in 2003 and 2007, respectively. Her PhD focused on secure and efficient coprocessor design for cryptographic applications on Field Programmable Gate Arrays (FPGAs). Currently, Nele is an associate professor at KU Leuven and an academic staff member of the Computer Security and Industrial Cryptography (COSIC) research group.
+  - Her research interests are in the domains of reconfigurable platforms for security applications, and embedded security in constrained environments. Nele was a visiting researcher for three months at the Ruhr University Bochum in 2013 and at École polytechnique fédérale de Lausanne in 2017. She was/is the principal investigator in around 15 finished and ongoing research projects with national and international funding. She serves as a program committee member of renowned international conferences on security and hardware design, such as Cryptographic Hardware and Embedded Systems, Network and Distributed System Security Symposium, Selected Areas in Cryptography, Design, Automation, and Test in Europe, Field-Programmable Logic and Applications (FPL) and Embedded Systems Week. She was the general co-chair of FPL in 2017 and the program chair of European Workshop on Microelectronics Education and International Workshop on Security Proofs for Embedded Systems in 2018. Nele is a Senior Member of the Institute of Electrical and Electronics Engineers and serves as an expert for the European Commission.
+- name: Doug Stinson
+  image: images/people/stinson.png
+  title: University Professor, David R. Cheriton School of Computer Science
+  affiliation: University of Waterloo
+  bio: 
+  - I am a University Professor in the David R. Cheriton School of Computer Science at the University of Waterloo and a Fellow of the Royal Society of Canada. I am affiliated with the CrySP (Cryptography, Security and Privacy) research group, and with the CACR (Centre for Applied Cryptographic Research). I am also the president of the Institute of Combinatorics and its Applications, serving a term from 2019-2022.

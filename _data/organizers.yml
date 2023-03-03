@@ -1,0 +1,16 @@
+- name: Douglas Stebila
+  role: Local Co-Chair
+  affiliation:
+  - Department of Combinatorics & Optimization
+  - University of Waterloo
+  - Waterloo, Ontario, Canada
+  url: https://www.douglas.stebila.ca/
+  image: images/people/stebila.jpg
+- name: Kenneth G. Paterson
+  role: External Co-Chair
+  affiliation:
+  - Information Security Group
+  - Royal Holloway, University of London
+  - Egham, Surrey, UK
+  url: http://www.isg.rhul.ac.uk/~kp/
+  image: images/people/paterson.jpg

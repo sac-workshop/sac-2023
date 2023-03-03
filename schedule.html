@@ -1,0 +1,77 @@
+---
+layout: default
+title: Schedule
+---
+
+<h1>Schedule</h1>
+
+{% if site.data.variables.show_schedule %}
+
+{% for day in site.data.schedule %}
+
+<a name="{{ day.date }}"></a>
+
+<nav class="navbar navbar-light bg-light d-print-none">
+  <div class="container">
+    <div class="container-fluid">
+      <ul class="nav fw-bold justify-content-center text-uppercase">
+        {% for dayinner in site.data.schedule %}
+        <li class="nav-item">
+            {% if day.date == dayinner.date %}<span class="btn btn-secondary fw-bold">{{ dayinner.date|date:"%A" }}</span>
+            {% else %}<a class="nav-link" href="#{{ dayinner.date }}">{{ dayinner.date|date:"%A" }}</a>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<br>
+
+{% for session in day.sessions %}
+
+<div class="row">
+  <div class="col-3">
+    <span class="text-uppercase text-muted">{{ day.date|date:"%a %b %e" }}</span><br>
+    <b>{{ session.time }}</b>
+    {% if session.location %}
+      <br>
+      {{ session.location }}
+    {% endif %}
+  </div>
+  <div class="col-9">
+    <h4>{{ session.title }}</h4>
+    {% if session.subtitle %}<p>{{ session.subtitle }}</p>{% endif %}
+    {% if session.speaker %}
+      <p><b>{{ session.speaker }}</b>{% if session.affiliation %}, {{ session.affiliation }}{% endif %}</p>
+    {% endif %}
+    {% if session.details %}
+      <div class="text-muted">{{ session.details }}</div>
+    {% endif %}
+    {% if session.talks %}
+      {% for talk in session.talks %}
+        <p>
+          <b>{{ talk.title }}</b><br>
+          <span class="text-muted">by {{ talk.authors }}</span>
+        </p>
+      {% endfor %}
+    {% endif %}
+  </div>
+</div>
+
+<hr>
+
+{% endfor %}
+
+<br>
+<br>
+<br>
+
+{% endfor %}
+
+{% else %}
+
+To be announced.
+
+{% endif %}

@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Bootstrap CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<style type="text/css">
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/OpenSans-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(fonts/OpenSans-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans SemiCondensed';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/OpenSans_SemiCondensed-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans SemiCondensed';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(fonts/OpenSans_SemiCondensed-Bold.ttf) format('truetype');
+}
+.navbar-light .nav-link {
+  color: black;
+}
+.navbar-dark .nav-link {
+  color: white;
+}
+.nav-link:hover {
+  text-decoration: underline;
+}
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans SemiCondensed', sans-serif;
+  font-weight: bold;
+}
+</style>
+
+<title>{{ page.title }} – {{ site.title }}</title>
+</head>
+<body>
+
+<header>
+  <br>
+  <div class="container">
+    <div class="row">
+      {% if site.data.variables.custom_sac_logo %}
+        <div class="col-12 col-md-8"><a href="index.html"><img src="{{ site.data.variables.custom_sac_logo }}" style="max-height: 80px; max-width: 100%;" alt="SAC logo"></a></div>
+      {% else %}
+        <div class="col-4 col-md-2 align-self-center text-center">
+          <a href="index.html"><img src="images/sac-logo-black.png" style="max-height: 80px; max-width: 100%;" alt="SAC logo"></a>
+        </div>
+        <div class="col-8 col-md-6 fs-4">
+          <b style="font-family: Open Sans SemiCondensed">Selected Areas in Cryptography {{ site.data.variables.year }}</b><br>
+          <span style="font-family: Open Sans SemiCondensed">{{ site.data.variables.location }}</span>
+        </div>
+      {% endif %}
+      <div class="offset-4 col-8 offset-md-0 col-md-4 fs-4 align-self-center text-center">
+        <b style="font-family: Open Sans SemiCondensed;">{{ site.data.variables.dates_all }}</b><br>
+        <span style="font-family: Open Sans SemiCondensed;">{{ site.data.variables.city }}</span>
+      </div>
+    </div>
+  </div>
+  <br>
+  <nav class="navbar navbar-dark bg-dark bg-gradient d-print-none">
+    <div class="container">
+      <div class="container-fluid">
+        <ul class="nav fw-bold justify-content-center text-uppercase">
+          <li class="nav-item">
+            {% if page.name == 'index.md' %}<span class="btn btn-secondary fw-bold">Home</span>
+            {% else %}<a class="nav-link" href="index.html">Home</a>
+            {% endif %}
+          </li>
+          <li class="nav-item">
+            {% if page.name == 'about.md' %}<span class="btn btn-secondary fw-bold">About</span>
+            {% else %}<a class="nav-link" href="about.html">About</a>
+            {% endif %}
+          </li>
+          <li class="nav-item">
+            {% if page.name == 'cfp.md' %}<span class="btn btn-secondary fw-bold">Call for papers</span>
+            {% else %}<a class="nav-link" href="cfp.html">Call for papers</a>
+            {% endif %}
+          </li>
+          {% if site.data.variables.show_registration %}
+          <li class="nav-item">
+            {% if page.name == 'registration.md' %}<span class="btn btn-secondary fw-bold">Registration</span>
+            {% else %}<a class="nav-link" href="registration.html">Registration</a>
+            {% endif %}
+          </li>
+          {% endif %}
+          {% if site.data.variables.show_schedule %}
+          <li class="nav-item">
+            {% if page.name == 'schedule.html' %}<span class="btn btn-secondary fw-bold">Schedule</span>
+            {% else %}<a class="nav-link" href="schedule.html">Schedule</a>
+            {% endif %}
+          </li>
+          {% endif %}
+          {% if site.data.variables.show_speakers and site.data.speakers.size > 0 %}
+          <li class="nav-item">
+            {% if page.name == 'speakers.html' %}<span class="btn btn-secondary fw-bold">Speakers</span>
+            {% else %}<a class="nav-link" href="speakers.html">Speakers</a>
+            {% endif %}
+          </li>
+          {% endif %}
+          <li class="nav-item">
+            {% if page.name == 'summer-school.md' %}<span class="btn btn-secondary fw-bold">SAC Summer School</span>
+            {% else %}<a class="nav-link" href="summer-school.html">SAC Summer School</a>
+            {% endif %}
+          </li>
+          <li class="nav-item">
+            {% if page.name == 'travel.md' %}<span class="btn btn-secondary fw-bold">Travel</span>
+            {% else %}<a class="nav-link" href="travel.html">Travel</a>
+            {% endif %}
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://sacworkshop.org/SAC-history.html" target="_blank">Past Years</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>

@@ -1,0 +1,27 @@
+<br><br><br>
+
+<hr>
+
+<br>
+
+<footer>
+  <div class="container">
+    <h2 class="text-center text-uppercase">Sponsors</h2>
+    <p class="text-center">Thank you to our generous sponsors.</p>
+    <div class="row">
+      {% for sponsor in site.data.sponsors %}
+        <div class="col-md-4 col-sm-6 text-center align-self-center">
+          <div><a href="{{ sponsor.url|e }}"><img src="{{ sponsor.image|e }}" style="max-width: 100%; max-height: 150px;" alt="{{ sponsor.name|e }}"></a></div>
+          <p class="text-small"><a class="text-muted" href="{{ sponsor.url|e }}">{{ sponsor.name|e }}</a></p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</footer>
+
+<br><br>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

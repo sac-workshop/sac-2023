@@ -1,0 +1,21 @@
+year: 2019
+edition: 26th
+fourth_topic: Real-world cryptography/cryptographic protocols in practice
+location: University of Waterloo
+location_in_sentence: the University of Waterloo
+city: Waterloo, Ontario
+dates_all: August 12–16, 2019
+dates_school: August 12–13, 2019
+dates_conference: August 14–16, 2019
+iacr_in_cooperation_with: true
+proceedings_in_springer_lncs: true
+show_registration: true # set to false if you're not ready to show the registration page yet
+show_schedule: true # set to false if you're not ready to display the schedule page yet
+show_speakers: true # set to false if you're not ready to display the invited speakers page yet
+banner_image: images/waterloo-wide.jpg # crop image so it's much wider than tall, e.g., 2000x625
+organizer_email: sac2019chairs@gmail.com
+url_submission: https://easychair.org/conferences/?conf=acisp2015 # comment this out to disable the submission link
+custom_sac_logo: images/sac-2019-logo.png # comment this out to use the default SAC logo; if you want to use your own logo, it should be much wider than tall (e.g., 2000x300), and should include the name of the conference "Selected Areas in Cryptography 20xx" and the location "University of XXX"
+sac_board_chair: 
+  name: Michael Jacobson
+  email: jacobs@ucalgary.ca

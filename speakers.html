@@ -1,0 +1,44 @@
+---
+layout: default
+title: Speakers
+---
+
+<h1>Speakers</h1>
+
+<p>Invited lecture and SAC Summer School speakers:</p>
+
+{% if site.data.variables.show_speakers and site.data.speakers.size > 0 %}
+
+<div class="row">
+
+{% for speaker in site.data.speakers %}
+<div class="col-md-6">
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-4">
+        <img src="{{ speaker.image|e }}" class="img-fluid rounded-start" alt="{{ speaker.name|e }}">
+      </div>
+      <div class="col-8">
+        <div class="card-body">
+          <h4 class="card-title">{{ speaker.name }}</h4>
+          <p class="card-text">{{ speaker.title }}, <b>{{ speaker.affiliation }}</b></p>
+          <a data-bs-toggle="collapse" data-bs-target="#bio-{{ forloop.index }}" aria-expanded="false" aria-controls="bio-{{ forloop.index }}" href="#">View speaker bio</a>
+          <div class="collapse" id="bio-{{ forloop.index }}">
+            {% for paragraph in speaker.bio %}
+              <p class="card-text text-muted">{{ paragraph }}</p>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}
+
+</div>
+
+{% else %}
+
+<p>To be announced.</p>
+
+{% endif %}
