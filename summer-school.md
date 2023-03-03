@@ -7,7 +7,9 @@ title: SAC Summer School
 
 The purpose of the Selected Areas in Cryptography (SAC) Summer School is to provide participants with an opportunity to gain in-depth knowledge of specific areas of cryptography related to the current SAC topics by bringing together world-class researchers who will give extended talks (half-day) in their areas of specialty. The SAC Summer School is open to all attendees, and may be of particular interest to students, postdoctoral fellows, and other early-career researchers.
 
-The SAC Summer School will be held prior to SAC, on **August 12-13, 2019**, at the University of Waterloo.
+The SAC Summer School will be held prior to SAC, on **{{ site.data.variables.dates_school }}**, at {{ site.data.variables.location }}.
+
+{% if site.data.variables.show_summer_school %}
 
 ## Registration
 
@@ -70,3 +72,5 @@ For directions and travel arrangements, see [Travel and Accommodations](travel.h
   </tr>
 </tbody>
 </table>
+
+{% endif %}

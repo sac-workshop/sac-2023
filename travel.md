@@ -5,6 +5,8 @@ title: Travel and accommodation
 
 # Travel and accommodations
 
+{% if site.data.variables.show_travel %}
+
 Selected Areas in Cryptography (SAC) 2019 and the SAC Summer School will be held on campus at the University of Waterloo, in Waterloo, Ontario, Canada.
 
 ## Location on campus
@@ -82,3 +84,9 @@ Toll free: 866.222.9175
 Waterloo – N2V 2G8<br>
 Tel: 519.514.0088<br>
 Toll Free: 844 204 8627
+
+{% else %}
+
+To be announced.
+
+{% endif %}

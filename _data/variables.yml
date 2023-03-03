@@ -11,7 +11,10 @@ iacr_in_cooperation_with: true
 proceedings_in_springer_lncs: true
 show_registration: true # set to false if you're not ready to show the registration page yet
 show_schedule: true # set to false if you're not ready to display the schedule page yet
+show_sponsors: true # set to false if you're not ready to display any sponsors
 show_speakers: true # set to false if you're not ready to display the invited speakers page yet
+show_summer_school: true # set to false if you're not ready to display the summer school information page yet
+show_travel: true # set to false if you're not ready to display the travel information page yet
 banner_image: images/waterloo-wide.jpg # crop image so it's much wider than tall, e.g., 2000x625
 organizer_email: sac2019chairs@gmail.com
 url_submission: https://easychair.org/conferences/?conf=acisp2015 # comment this out to disable the submission link
