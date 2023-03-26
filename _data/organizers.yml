@@ -1,16 +1,22 @@
-- name: Douglas Stebila
-  role: Local Co-Chair
-  affiliation:
-  - Department of Combinatorics & Optimization
-  - University of Waterloo
-  - Waterloo, Ontario, Canada
-  url: https://www.douglas.stebila.ca/
-  image: images/people/stebila.jpg
-- name: Kenneth G. Paterson
+- name: Claude Carlet
   role: External Co-Chair
   affiliation:
-  - Information Security Group
-  - Royal Holloway, University of London
-  - Egham, Surrey, UK
-  url: http://www.isg.rhul.ac.uk/~kp/
-  image: images/people/paterson.jpg
+  - Département de mathématiques
+  - Universite Paris 8, France & University of Bergen, Norway
+  - 93526 Saint-Denis, Cedex, France
+  url: https://www.math.univ-paris13.fr/~carlet/english.html
+  #image: images/people/stebila.jpg
+- name: Kalikinkar Mandal
+  role: Local Co-Chair
+  affiliation:
+  - Faculty of Computer Science
+  - University of New Brunswick
+  - Fredericton, New Brunswick, Canada
+  url: http://www.cs.unb.ca/~kmandal/
+  #image: images/people/paterson.jpg
+- name: Vincent Rijmen
+  role: External Co-Chair
+  affiliation:
+  - KU Leuven, Belgium & University of Bergen, Norway
+  url: https://www.esat.kuleuven.be/cosic/people/vincent-rijmen/
+  #image: images/people/paterson.jpg
