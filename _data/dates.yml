@@ -1,14 +1,16 @@
-- name: Submission deadline
-  date: Friday, May 3, 2019
-  time: 23:59:59 UTC-1200 (anywhere on Earth) -- No extensions!
+- name: Abstract submission deadline
+  date: Tuesday, May 9, 2023
+- name: Final paper submission deadline
+  date: Tuesday, May 16, 2023
+  time: 23:59:59 GMT
   url_convert_to_local_time: https://www.timeanddate.com/worldclock/fixedtime.html?msg=Selected+Areas+in+Cryptography+2019+submission+deadline&iso=20190503T235959&p1=3926
 - name: Notification
-  date: Monday, June 17, 2019
+  date: Monday, July 3, 2023
 - name: Pre-proceedings version
-  date: Monday, July 15, 2019
+  date: Wednesday, July 26, 2023
 - name: SAC Summer School
-  date: Monday, August 12 – Tuesday, August 13, 2019
+  date: Monday, August 14 – Tuesday, August 15, 2023
 - name: Conference
-  date: Wednessday, August 14 – Friday, August 16, 2019
+  date: Wednessday, August 16 – Friday, August 18, 2023
 - name: Camera-ready post-proceedings version
-  date: Tuesday, September 17, 2019
+  date: Monday, September 18, 2023
