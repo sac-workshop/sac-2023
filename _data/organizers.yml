@@ -1,15 +1,12 @@
 - name: Claude Carlet
   role: External Co-Chair
   affiliation:
-  - Département de mathématiques
   - Universite Paris 8, France & University of Bergen, Norway
-  - 93526 Saint-Denis, Cedex, France
   url: https://www.math.univ-paris13.fr/~carlet/english.html
   #image: images/people/stebila.jpg
 - name: Kalikinkar Mandal
   role: Local Co-Chair
   affiliation:
-  - Faculty of Computer Science
   - University of New Brunswick
   - Fredericton, New Brunswick, Canada
   url: http://www.cs.unb.ca/~kmandal/
