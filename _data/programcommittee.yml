@@ -1,90 +1,76 @@
-- name: Andreas Hülsing
-  affiliation: Eindhoven University of Technology, The Netherlands
-- name: Atefeh Mashatan
-  affiliation: Ryerson University, Canada
-- name: Atul Luykx
-  affiliation: Visa Research, USA
-- name: Bart Mennink
-  affiliation: Radboud University, The Netherlands
-- name: Benjamin Dowling
-  affiliation: Royal Holloway, University of London, UK
-- name: Bertram Poettering
-  affiliation: Royal Holloway, University of London, UK
-- name: Chris Peikert
-  affiliation: University of Michigan, USA
-- name: Christophe Petit
-  affiliation: University of Birmingham, UK
-- name: Craig Costello
-  affiliation: Microsoft Research, USA
-- name: Diego Aranha
-  affiliation: Aarhus University, Denmark / University of Campinas,  Brazil
-- name: Douglas Stebila
-  affiliation: University of Waterloo, Canada
-- name: Fabrice Benhamouda
-  affiliation: IBM Research, USA
-- name: Fang Song
-  affiliation: Texas A&M University, USA
-- name: Gareth T. Davies
-  affiliation: University of Paderborn, Germany
-- name: Giorgia Azzurra Marson
-  affiliation: NEC Laboratories Europe, Germany
-- name: Guang Gong
-  affiliation: University of Waterloo, Canada
-- name: Javad Doliskani
-  affiliation: University of Waterloo, Canada
-- name: Jean Paul Degabriele
-  affiliation: TU Darmstadt, Germany
-- name: Joppe W. Bos
-  affiliation: NXP Semiconductors, Belgium
-- name: Juraj Somorovsky
-  affiliation: Ruhr-Universität Bochum, Germany
-- name: Kan Yasuda
-  affiliation: NTT, Japan
-- name: Kenneth G. Paterson
-  affiliation: Royal Holloway, University of London, UK / ETH Zürich, Switzerland
-- name: Leonie Simpson
-  affiliation: Queensland University of Technology, Australia
-- name: Máire O'Neill
-  affiliation: CSIT, Queen's University Belfast, UK
-- name: Marc Joye
-  affiliation: OneSpan, Belgium
-- name: Marcel Keller
-  affiliation: Data61, Australia
-- name: Mridul Nandi
-  affiliation: Indian Statistical Institute, Kolkata, India
-- name: Nele Mentens
-  affiliation: KU Leuven, Belgium
-- name: Orr Dunkelman
-  affiliation: University of Haifa, Israel
-- name: Patrick Longa
-  affiliation: Microsoft Research, USA
-- name: Paul Grubbs
-  affiliation: Cornell Tech, USA
+- name: Riham AlTawy
+  affiliation: University of Victoria, Canada
+- name: Melissa Azouaoui
+  affiliation: NXP Semiconductors, Germany 
 - name: Paulo Barreto
   affiliation: University of Washington Tacoma, USA
-- name: Reihaneh Safavi-Naini
-  affiliation: University of Calgary, Canada
-- name: Renate Scheidler
-  affiliation: University of Calgary, Canada
-- name: Somitra Kumar  Sanadhya
-  affiliation: Indian Institute of Technology Ropar, India
-- name: Takanori Isobe
-  affiliation: University of Hyogo & NICT, Japan
-- name: Tarik Moataz
-  affiliation: Brown University, USA
-- name: Tibor Jager
-  affiliation: Universität Paderborn, Germany
-- name: Tim Güneysu
-  affiliation: Ruhr-Universität Bochum & DFKI, Germany
-- name: Tomer Ashur
+- name: Jean-Francois Biasse
+  affiliation: University of South Florida, USA
+- name: Olivier Blazy
+  affiliation: Ecole polytechnique, France
+- name: Claude Carlet (Co-Chair)
+  affiliation: Universite Paris 8 & University of Bergen, France & Norway
+- name: Wouter Castryck
   affiliation: KU Leuven, Belgium
-- name: Vadim Lyubashevsky
-  affiliation: IBM Research, Switzerland
-- name: Willi Meier
-  affiliation: FHNW, Switzerland
+- name: Joan Daemen
+  affiliation: Radboud University, The Netherlands
+- name: Maria Eichlseder
+  affiliation: Graz University of Technology, Austria
+- name: Aurore Guillevic
+  affiliation: Inria Nancy, France and Aarhus University, Denmark
+- name: Ryan Henry
+  affiliation: University of Calgary, Canada
+- name: Takanori Isobe
+  affiliation: University of Hyogo, Japan
+- name: Yunwen Liu
+  affiliation: Cryptape Technology Co. Ltd, China
+- name: Subhamoy Maitra
+  affiliation: Indian Statistical Institute, India
+- name: Kalikinkar Mandal (Co-chair)
+  affiliation: University of New Brunswick, Canada
+- name: Barbara Masucci
+  affiliation: University of Salerno, Italy
+- name: Cuauhtemoc Mancillas-López
+  affiliation: CINVESTAV-IPN, México 
+- name: Bart Mennink
+  affiliation: Radboud University, The Netherlands
+- name: Ruben Niederhagen
+  affiliation: Academia Sinica and University of Southern Denmark, Denmark
+- name: Svetla Nikova
+  affiliation: KU Leuven, Belgium
+- name: Colin O'Flynn
+  affiliation: NewAE Technology Inc., Canada
+- name: Stjepan Picek
+  affiliation: Radboud University, The Netherlands
+- name: Elizabeth A. Quaglia
+  affiliation: Royal Holloway, University of London, UK
+- name: Haavard Raddum
+  affiliation: Simula UiB, Norway
+- name: Vincent Rijmen (Co-chair)
+  affiliation: KU Leuven, Belgium and University of Bergen, Norway 
+- name: Matthieu Rivain
+  affiliation: CryptoExperts, France
+- name: Raghav Rohit
+  affiliation: Technology Innovation Institute, UAE
+- name: Yann Rotella
+  affiliation: Universite de Versailles Saint-Quentin, France
+- name: Yu Sasaki
+  affiliation: NTT Social Informatics Laboratories, Japan 
+- name: Palash Sarkar
+  affiliation: Indian Statistical Institute, India
+- name: Nicolas Sendrier
+  affiliation: Inria, France
+- name: Benjamin Smith
+  affiliation: Inria and Ecole polytechnique, Institut Polytechnique de Paris, France
+- name: Sujoy Sinharoy
+  affiliation: Graz University Of Technology, Austria
+- name: Douglas Stebila
+  affiliation: University of Waterloo, Canada
+- name: Katsuyuki Takashima
+  affiliation: Waseda University, Japan
 - name: Yosuke Todo
-  affiliation: NTT Secure Platform Laboratories, Japan
-- name: Yuval Yarom
-  affiliation: University of Adelaide and Data61, Australia
-- name: Zhenfeng Zhang
-  affiliation: Institute of Software, Chinese Academy of Sciences, China
+  affiliation: NTT Social Informatics Laboratories, Japan
+- name: Yuntao Wang
+  affiliation: Osaka University, Japan
+- name: Wen Wang
+  affiliation: Intel Labs, USA
