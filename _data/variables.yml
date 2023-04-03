@@ -15,7 +15,7 @@ show_sponsors: false # set to false if you're not ready to display any sponsors
 show_speakers: false # set to false if you're not ready to display the invited speakers page yet
 show_summer_school: false # set to false if you're not ready to display the summer school information page yet
 show_travel: false # set to false if you're not ready to display the travel information page yet
-banner_image: images/waterloo-wide.jpg # crop image so it's much wider than tall, e.g., 2000x625
+#banner_image: images/waterloo-wide.jpg # crop image so it's much wider than tall, e.g., 2000x625
 organizer_email: sac2023chairs@gmail.com
 url_submission: https://easychair.org/conferences/?conf=sac2023 # comment this out to disable the submission link
 custom_sac_logo: images/sac-2019-logo.png # comment this out to use the default SAC logo; if you want to use your own logo, it should be much wider than tall (e.g., 2000x300), and should include the name of the conference "Selected Areas in Cryptography 20xx" and the location "University of XXX"

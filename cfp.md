@@ -14,6 +14,8 @@ Authors are encouraged to submit original papers related to the following themes
 
 SAC {{ site.data.variables.year }} also welcomes papers in any of the areas above with a focus on post-quantum cryptography.
 
+#Download the detailed call for papers (PDF).
+
 <div class="text-center"><a class="btn btn-primary" href="cfp-detailed.html">Submission instructions</a></div>
 
 <br>
