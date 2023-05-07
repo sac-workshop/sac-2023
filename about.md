@@ -43,6 +43,8 @@ The SAC proceedings are published by Springer in the <a href="https://www.spring
 {%- endfor -%}
 [{{ organizer.url }}]({{ organizer.url }})
 
+<div style="clear: both;">&nbsp;</div>
+
 {% endfor %}
 
 <hr>
