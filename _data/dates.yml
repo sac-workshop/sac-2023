@@ -1,8 +1,8 @@
 - name: Abstract submission deadline
   date: <s>Tuesday, May 9, 2023</s> Tuesday, May 16, 2023 (extended!)
 - name: Final paper submission deadline
-  date: Tuesday, May 16, 2023
-  time: 23:59:59 GMT
+  date: <s>Tuesday, May 16, 2023</s>
+  time: <s>23:59:59 GMT</s>
   url_convert_to_local_time: https://www.timeanddate.com/worldclock/fixedtime.html?msg=Selected+Areas+in+Cryptography+2023+submission+deadline&iso=20230516T235959&p1=1440
 - name: Notification
   date: Monday, July 3, 2023
