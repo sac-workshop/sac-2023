@@ -1,18 +1,18 @@
 - name: Communications Security Establishment
   url: https://www.cse-cst.gc.ca/en
   image: images/sponsors/cse.jpg
-- name: Fields Institute
-  url: http://www.fields.utoronto.ca/
-  image: images/sponsors/fields.jpg
-- name: ISARA
-  url: https://www.isara.com/
-  image: images/sponsors/isara.png
-- name: CryptoWorks21
-  url: https://cryptoworks21.uwaterloo.ca
-  image: images/sponsors/cryptoworks21.jpg
-- name: University of Waterloo Faculty of Mathematics
-  url: https://uwaterloo.ca/math/
-  image: images/sponsors/uwmath.jpg
-- name: University of Waterloo Cybersecurity and Privacy Institute
-  url: https://uwaterloo.ca/cybersecurity-privacy-institute/
-  image: images/sponsors/cpi.jpg
+#- name: Fields Institute
+#  url: http://www.fields.utoronto.ca/
+#  image: images/sponsors/fields.jpg
+#- name: ISARA
+#  url: https://www.isara.com/
+#  image: images/sponsors/isara.png
+#- name: CryptoWorks21
+#  url: https://cryptoworks21.uwaterloo.ca
+#  image: images/sponsors/cryptoworks21.jpg
+#- name: University of Waterloo Faculty of Mathematics
+#  url: https://uwaterloo.ca/math/
+#  image: images/sponsors/uwmath.jpg
+#- name: University of Waterloo Cybersecurity and Privacy Institute
+#  url: https://uwaterloo.ca/cybersecurity-privacy-institute/
+#  image: images/sponsors/cpi.jpg
