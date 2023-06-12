@@ -1,6 +1,9 @@
 - name: Communications Security Establishment
   url: https://www.cse-cst.gc.ca/en
   image: images/sponsors/cse.jpg
+- name: University of New Brunswick Faculty of Computer Science
+  url: https://www.unb.ca/fredericton/cs/
+  image: images/sponsors/UNBCS.png
 #- name: Fields Institute
 #  url: http://www.fields.utoronto.ca/
 #  image: images/sponsors/fields.jpg
