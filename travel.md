@@ -20,7 +20,7 @@ The SAC Summer School and SAC main conference take place at the University of Ne
 Find the [various ways](https://www.unb.ca/global/incoming/arrival-information.html) to get to the City of Fredericton and the campus by air, bus, car or train.
 
 #### Getting from Fredericton International Airport (YFC) to Fredericton
-You can travel between Fredericton Airport and Fredericton by taxi. Travel time is about 25 mins. Some taxi services are Trius Taxi, ABC Taxi, and Loyal Taxi, and the fare is about $20 - $35 + tip, depending upon where you get off. 
+You can travel between Fredericton Airport and Fredericton by taxi. Travel time is about 25 mins. Some taxi services are Trius Taxi, ABC Taxi, and Loyal Taxi, and the fare is about CAD $20-35 + tip, depending upon where you get off. 
 
 <!--You can travel between Toronto Pearson Airport at Waterloo by shuttle or taxi, though note that you need to reserve in advance. Travel time is about 1.25 hours outside of rush hour. Allow 1.5-2 hours during rush hour.
 - [Airways Transit](https://www.airwaystransit.com/) door-to-door service: $101/person + tip
