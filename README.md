@@ -17,6 +17,7 @@ For the initial launch of the website, you will want to edit the following files
 As planning progresses, you will need to edit the following files.  (Note that until you have updated the files below, you should hide them from being displayed by editing the relevant variables in `_data/variables.yml`.)
 
 - `_data/sponsors.yml`
+- `_data/accepted_papers.yml`
 - `_data/schedule.yml`
 - `_data/speakers.yml`
 - `registration.md`

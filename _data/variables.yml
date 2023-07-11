@@ -9,6 +9,7 @@ dates_school: August 14–15, 2023
 dates_conference: August 16–18, 2023
 iacr_in_cooperation_with: true
 proceedings_in_springer_lncs: true
+show_accepted_papers: false # set to false if you're not ready to display the accepted papers page yet
 show_registration: true # set to false if you're not ready to show the registration page yet
 show_schedule: false # set to false if you're not ready to display the schedule page yet
 show_sponsors: true # set to false if you're not ready to display any sponsors

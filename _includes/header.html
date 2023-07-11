@@ -107,6 +107,13 @@ h1, h2, h3, h4, h5, h6 {
             {% endif %}
           </li>
           {% endif %}
+          {% if site.data.variables.show_accepted_papers %}
+          <li class="nav-item">
+            {% if page.name == 'accepted-papers.html' %}<span class="btn btn-secondary fw-bold">Accepted papers</span>
+            {% else %}<a class="nav-link" href="accepted-papers.html">Accepted papers</a>
+            {% endif %}
+          </li>
+          {% endif %}
           {% if site.data.variables.show_schedule %}
           <li class="nav-item">
             {% if page.name == 'schedule.html' %}<span class="btn btn-secondary fw-bold">Schedule</span>
