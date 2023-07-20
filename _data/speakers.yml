@@ -4,15 +4,13 @@
   affiliation: Katholieke Universiteit (KU) Leuven (Belgium)
   bio: 
   - Tim Beyne is a postdoctoral researcher at KU Leuven. He obtained his bachelor’s degree in computer science and electrical engineering in 2017, and his master’s degree in mathematical engineering in 2019 from KU Leuven. Between 2019 and 2023, he was funded by a PhD fellowship for fundamental research from the Fund for Scientific Research Flanders (FWO). His dissertation was advised by Vincent Rijmen and is entitled "A geometric approach to symmetric-key cryptanalysis". His research has been recognized with awards at Asiacrypt 2018, Crypto 2021 and Asiacrypt 2021.  
-  #- Craig Costello is a researcher in cryptography at Microsoft in the USA. He works on cryptographic applications of computational number theory, and in recent years his focus has been on post-quantum cryptography.
-  #- Craig graduated with a PhD from the Queensland University of Technology in Australia and was a Fulbright scholar at the University of California, Irvine. Previous to his current position, he was a postdoctoral fellow at both Technische Universiteit Eindhoven in the Netherlands and at Microsoft Research in the USA.
   - 
 - name: Tim Güneysu
-  image: images/people/
+  image: images/people/gueneysu-mid-cut.jpg
   title: Professor 
   affiliation: Ruhr-Universität Bochum (Germany)
-  bio: 
-  #- Tetsu Iwata is an Associate Professor at Nagoya University, Japan. He works on design and analysis of various symmetric key cryptosystems. He is one of the designers of CMAC (Cipher-based Message Authentication Code), which was adopted by NIST as a recommended block cipher mode of operation in 2005. In recent years, he is also interested in quantum security of symmetric key cryptosystems. He was the general co-chair of FSE 2017, and the program co-chairs of FSE 2010, Asiacrypt 2014, and Asiacrypt 2015.
+  bio:
+  -  Tim Güneysu is professor and head of the chair for Security Engineering at Ruhr-Universität Bochum, Germany. He is also affiliated with the Cyber Physical Systems (CPS) division of the German Research Center for Artificial Intelligence (DFKI) in Bremen. Tim's primary research topics are in the secure design and low-level engineering of systems, with focus on advanced and quantum-secure cryptographic implementations, implementation and processor security as well as other aspects of hardware security. Tim published and contributed to more than 150 peer-reviewed journal and conference publications in the area of applied security and cryptography. 
   - 
 - name: David Jao
   image: images/people/davidjao.jpg
@@ -20,7 +18,6 @@
   affiliation:  University of Waterloo
   bio: 
   - David Jao received his Ph.D in Mathematics from Harvard University in 2003. From 2003 to 2006, he worked in the Cryptography and Anti-Piracy Group at Microsoft Research, contributing cryptographic software modules for several Microsoft products. He is currently a professor in the Mathematics Faculty at the University of Waterloo. His research interests include elliptic curve cryptography, post-quantum cryptography, protocol design, and implementation. Prof. Jao is one of the inventors of isogeny-based cryptography and principal submitter of the SIKE cryptosystem, which advanced to round 4 of the NIST post-quantum cryptography standardization process before being broken in 2022. 
-  #- Seny Kamara is an Associate Professor of Computer Science at Brown University. Before joining Brown, he was a researcher at Microsoft Research (Redmond Lab). His research is in cryptography and is driven by real-world problems from privacy, security and surveillance. His primary focus is on the design and cryptanalysis of encrypted algorithms, which are efficient algorithms that operate on end-to-end encrypted data. He maintains interests in various aspects of theory and systems, including applied and theoretical cryptography, data structures and algorithms, data systems, algorithmic fairness, game theory and technology policy.
 
 - name: Adeline Roux-Langlois
   image: images/people/rouxlanglois.jpg
@@ -28,8 +25,6 @@
   affiliation: GREYC, Caen, France
   bio: 
   - Adeline Roux-Langlois is a full-time researcher for CNRS (chargée de recherche in French) at the GREYC Lab in Caen, France. She obtained her PhD at the ENS Lyon in 2014 and worked as a postdoctoral researcher at EPFL in Switzerland. Her research focuses on lattice-based cryptography, in particular on the theoretical hardness of the underlying assumptions like the Learning With Errors problem (LWE) and its Module variant (MLWE). She also works on cryptographic constructions based on lattices.
-  #- Nele Mentens received her master and PhD degree from Katholieke Universiteit (KU) Leuven in 2003 and 2007, respectively. Her PhD focused on secure and efficient coprocessor design for cryptographic applications on Field Programmable Gate Arrays (FPGAs). Currently, Nele is an associate professor at KU Leuven and an academic staff member of the Computer Security and Industrial Cryptography (COSIC) research group.
-  #- Her research interests are in the domains of reconfigurable platforms for security applications, and embedded security in constrained environments. Nele was a visiting researcher for three months at the Ruhr University Bochum in 2013 and at École polytechnique fédérale de Lausanne in 2017. She was/is the principal investigator in around 15 finished and ongoing research projects with national and international funding. She serves as a program committee member of renowned international conferences on security and hardware design, such as Cryptographic Hardware and Embedded Systems, Network and Distributed System Security Symposium, Selected Areas in Cryptography, Design, Automation, and Test in Europe, Field-Programmable Logic and Applications (FPL) and Embedded Systems Week. She was the general co-chair of FPL in 2017 and the program chair of European Workshop on Microelectronics Education and International Workshop on Security Proofs for Embedded Systems in 2018. Nele is a Senior Member of the Institute of Electrical and Electronics Engineers and serves as an expert for the European Commission.
 
 - name: Doug Stinson
   image: images/people/doug_head.jpg
@@ -38,4 +33,3 @@
   bio: 
   - Dr. Douglas Stinson obtained his PhD in Mathematics 1981 from the University of Waterloo. He  held postdoctoral and faculty positions at the University of Manitoba (1981-1989); the University of Nebraska-Lincoln (1990-1998); and the University of Waterloo (1998-2019), where he was a University Professor from 2013-2019. Following his retirement in 2019, Dr.  Stinson is a Professor Emeritus in the David R. Cheriton School of Computer Science at the University of Waterloo. He is also an Adjunct Research Professor in the School of Mathematics and Statistics at Carleton University.
   - Dr. Stinson's research interests include  combinatorial mathematics (especially combinatorial design theory and coding theory) and cryptography (especially unconditionally secure cryptography). He is the author of almost 400 research papers and books, including the best-selling textbook Cryptography Theory and Practice, which is now in its fourth edition. Dr. Stinson has supervised 17 PhD students and 16 Masters students. He was elected as a Fellow of the Royal Society of Canada in 2011. 
-  #- I am a University Professor in the David R. Cheriton School of Computer Science at the University of Waterloo and a Fellow of the Royal Society of Canada. I am affiliated with the CrySP (Cryptography, Security and Privacy) research group, and with the CACR (Centre for Applied Cryptographic Research). I am also the president of the Institute of Combinatorics and its Applications, serving a term from 2019-2022.

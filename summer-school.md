@@ -13,11 +13,11 @@ The SAC Summer School will be held prior to SAC, on **{{ site.data.variables.dat
 
 ## Registration
 
-The registration fee for the SAC Summer School is $40 for regular attendees and $20 for students. [Register today.](registration.html)
+The registration fee for the SAC Summer School is $120 for regular attendees and $60 for students. [Register today.](registration.html)
 
 ## Schedule
 
-All talks will take place on the University of Waterloo main campus in Davis Centre (DC) room 1302. You can find more detailed information on the [Schedule](schedule.html) page.
+All talks will take place on the University of New Brunswick, Fredericton main campus in the Head Hall Auditorium. <!-- You can find more detailed information on the [Schedule](schedule.html) page.-->
 
 For directions and travel arrangements, see [Travel and Accommodations](travel.html).
 
@@ -25,8 +25,8 @@ For directions and travel arrangements, see [Travel and Accommodations](travel.h
 <thead>
   <tr>
     <th></th>
-    <th>Monday August 12, 2019</th>
-    <th>Tuesday August 13, 2019</th>
+    <th>Monday August 14, 2023</th>
+    <th>Tuesday August 15, 2023</th>
   </tr>
 </thead>
 <tbody>
