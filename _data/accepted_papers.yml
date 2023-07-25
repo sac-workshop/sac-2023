@@ -10,33 +10,33 @@
   authors: Kosei Sakamoto, Ryoma Ito and Takanori Isobe 
 - title: The Random Fault Model
   authors: Siemen Dhooghe and Svetla Nikova
-- title: 
-  authors: 
-- title: 
-  authors: 
-- title: 
-  authors: 
-- title: 
-  authors: 
-- title: 
-  authors: 
-- title: 
-  authors: 
-- title: 
-  authors: 
-- title: 
-  authors: 
-- title: 
-  authors: 
-- title: 
-  authors: 
-- title: 
-  authors: 
-- title: 
-  authors: 
-- title: 
-  authors: 
-- title: 
-  authors: 
-- title: 
-  authors: 
+- title: Not so Difficult in the End: Breaking the ASCADv2 Dataset 
+  authors: Lichao Wu, Guilherme Perin and Stjepan Picek
+- title: Generalized Implicit Factorization Problem
+  authors: Yansong Feng, Abderrahmane Nitaj and Yanbin Pan
+- title: On the precision loss in approximate homomorphic encryption
+  authors: Anamaria Costache, Benjamin Curtis, Erin Hales, Sean Murphy, Tabitha Ogilvie and Rachel Player
+- title: More Balanced Polynomials: Cube Attacks on 810- and 825- Round of Trivium with Practical Complexity
+  authors: Hao Lei, Jiahui He, Kai Hu and Meiqin Wang
+ - title: Probabilistic Related-Key Statistical Saturation Cryptanalysis 
+  authors: Muzhou Li, Nicky Mouha, Ling Sun and Meiqin Wang
+- title: Fast and Efficient Hardware Implementation of HQC
+  authors: Sanjay Deshpande, Chuanqi Xu, Mamuri Nawan, Kashif Nawaz and Jakub Szefer
+- title: Threshold Implementations with Non-Uniform Inputs
+  authors: Siemen Dhooghe and Artemii Ovchinnikov
+- title: Bit Security Analysis of Lattice-Based KEMs under Plaintext-Checking Attacks
+  authors: Ruiqi Mi, Haodong Jiang and Zhenfeng Zhang
+- title: A Closer Look at the S-box: Deeper Analysis of Round-Reduced ASCON-HASH
+  authors: Xiaorui Yu, Fukang Liu, Gaoli Wang, Siwei Sun and Willi Meier
+- title: Improving the Rectangle Attack on GIFT-64
+  authors: Yincen Chen, Nana Zhang, Xuanyu Liang, Ling Song, Qianqian Yang and Zhuohui Feng
+- title: Secure Function Extensions to Additively Homomorphic Cryptosystems
+  authors: Mounika Pratapa and Aleksander Essex
+- title: Quantum Cryptanalysis of OTR and OPP: Attacks on Confidentiality, and Key-Recovery
+  authors: Melanie Jauch and Varun Maram
+- title: Traceable Ring Signatures from Group Actions: Logarithmic, Flexible, and Quantum Resistant
+  authors: Wei Wei, Min Luo, Zijian Bao, Cong Peng and Debiao He
+- title: Compactly Committing Authenticated Encryption Using Encryptment and Tweakable Block Cipher
+  authors: Shoichi Hirose and Kazuhiko Minematsu
+- title: Deep Learning-Based Rotational-XOR Distinguishers for AND-RX Block Ciphers: Evaluations on Simeck and Simon
+  authors: Amirhossein Ebrahimi Moghaddam, David Gerault and Paolo Palmieri
