@@ -1,4 +1,4 @@
-- title: New directions in cryptography
-  authors: Whitfield Diffie and Martin Hellman
-- title: A method for obtaining digital signatures and public-key cryptosystems
-  authors: Ron Rivest, Adi Shamir, and Len Adleman
+- title: CLAASP: a Cryptographic Library for the Automated Analysis of Symmetric Primitives
+  authors: Emanuele Bellini, David Gerault, Juan Grados, Yun Ju Huang, Rusydi Makarim, Mohamed Rachidi and Sharwan Tiwari
+- title: Mask Compression: High-Order Masking on Memory-Constrained Devices
+  authors: Markku-Juhani Saarinen and Mélissa Rossi
