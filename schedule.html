@@ -54,6 +54,12 @@ title: Schedule
         <p>
           <b>{{ talk.title }}</b><br>
           <span class="text-muted">by {{ talk.authors }}</span>
+          {% if site.data.variables.show_preproceedings_links and talk.preproceeding %}
+          • <a href="{{ talk.preproceeding }}">pre-proceeding version (PDF)</a>
+          {% endif %}
+          {% if talk.slides %}
+          • <a href="{{ talk.slides }}">slides</a>
+          {% endif %}
         </p>
       {% endfor %}
     {% endif %}

@@ -1,5 +1,6 @@
 - title: "CLAASP: a Cryptographic Library for the Automated Analysis of Symmetric Primitives"
   authors: Emanuele Bellini, David Gerault, Juan Grados, Yun Ju Huang, Rusydi Makarim, Mohamed Rachidi and Sharwan Tiwari
+  preproceeding: preproceedings/bellini.pdf
 - title: "Mask Compression: High-Order Masking on Memory-Constrained Devices"
   authors: Markku-Juhani Saarinen and Mélissa Rossi
 - title: "SMAUG: Pushing Lattice-based Key Encapsulation Mechanisms to the Limits"

@@ -96,6 +96,8 @@
     talks: 
       - title: Probabilistic Mixture Differential Cryptanalysis on round-reduced AES
         authors: Lorenzo Grassi (IAIK, TU Graz (Austria))
+        # preproceeding: preproceedings/grassi.pdf
+        # slides: slides/grassi.pdf
       - title: Iterative Differential Characteristic of TRIFLE-BC
         authors: Fukang Liu (East China Normal University, Shanghai, China & University of Hyogo, Hyogo, Japan); Takanori Isobe (National Institute of Information and Communications Technology, Japan & University of Hyogo, Hyogo, Japan)
   - title: Coffee Break
