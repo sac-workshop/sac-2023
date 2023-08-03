@@ -40,7 +40,7 @@
     speaker: David Jao
     affiliation: University of Waterloo, Canada
     details:
-- date: 2019-08-15
+- date: 2023-08-15
   sessions:
   - title: SAC Summer School - Linear and differential cryptanalysis, Part 1
     time: 9:00 AM - 10:30 AM
@@ -80,7 +80,7 @@
     affiliation: "Ruhr-Universität Bochum, Germany"
     details: 
 
-- date: 2019-08-16
+- date: 2023-08-16
   sessions:
   - title: Registration
     time: 8:30 AM - 9:15 AM
@@ -142,7 +142,7 @@
     #subtitle: 'The conference “banquet” will be a barbecue in nearby Waterloo Park, on Wednesday August 14 from 6-8pm, at Picnic Shelter #20.'
     #details: "<p>It is approximately a 20 minutes walk from the conference location.  A group will be walking over to the park, leaving from the Davis Centre (DC) 1301 room at 5:30.  If you have mobility requirements, please contact the conference chairs to make arrangements to get to the park.  The exact latitude and longitude of the picnic shelter is <a href='https://www.google.com/maps/place/43%C2%B027%2754.8%22N+80%C2%B032%2711.5%22W/@43.4652249,-80.5376283' target='_blank'>43.465222, -80.536528</a>.</p><p><img src='images/map.jpg' alt='Map to BBQ'></p><p>In the event of inclement weather, the barbecue will be relocated to our backup rain location, the Math 3 (M3) atrium, on campus. An announcement will be made during the day at the conference if we are relocating.</p>"
 
-- date: 2019-08-17
+- date: 2023-08-17
   sessions:
   - title: Invited lecture - Robust and Non-malleable Threshold Schemes, AMD codes and External Difference Families
     time: 9:00 AM - 10:00 AM
@@ -190,8 +190,7 @@
     time: 6:00 PM - 9:00 PM
     location: 
     details: 
-
-- date: 2019-08-18
+- date: 2023-08-18
   sessions:
   - title: Invited lecture - A geometric approach to symmetric-key cryptanalysis
     time: 9:00 AM - 10:00 AM
