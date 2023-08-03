@@ -60,7 +60,7 @@ For directions and travel arrangements, see [Travel and Accommodations](travel.h
   <tr>
     <th>13:15-14:45</th>
     <td>Tutorial 2 – Post-quantum cryptography, David Jao</td>
-    <td>Tutorial 4 – Counter-measures against side-channel attacks, Tim Güneysu</td>
+    <td>Tutorial 4 – Physical Attacks and Countermeasures, Tim Güneysu</td>
   </tr>
   <tr>
     <th>14:45-15:15</th>
