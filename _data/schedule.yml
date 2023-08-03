@@ -88,7 +88,6 @@
     location: #DC 1301
   - title: Opening Remarks
     time: 9:15 AM - 9:25 AM
-<<<<<<< HEAD
     location: ML 53
   - title: Invited lecture - Hardware Security - Directions and Challenges
     time: 9:25 AM - 10:25 PM
@@ -119,7 +118,7 @@
     location: ML 53
     talks:
     - title: "Mask Compression: High-Order Masking on Memory-Constrained Devices"
-      authors: Markku-Juhani Saarinen and Mélissa Rossi 
+      authors: "Markku-Juhani Saarinen and Mélissa Rossi "
     - title: "Not so Difficult in the End: Breaking the ASCADv2 Dataset"
       authors: Lichao Wu, Guilherme Perin and Stjepan Picek
     - title: Threshold Implementations with Non-Uniform Inputs
