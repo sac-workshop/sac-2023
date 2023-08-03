@@ -1,232 +1,223 @@
-- date: 2019-08-12
+- date: 2023-08-14
   sessions:
   - title: SAC Summer School - Registration
     time: 8:30 AM - 9:00 AM
-    location: DC 1301
-  - title: SAC Summer School - A gentle introduction to ECC
+    location: #DC 1301
+  - title: SAC Summer School - Lattice-based cryptography
     time: 9:00 AM - 10:30 AM
-    location: DC 1302
-    subtitle: A tutorial on post-quantum elliptical curve cryptography
-    speaker: Craig Costello
-    affiliation: Microsoft Research
-    details: This talk will give an introduction to isogeny-based cryptography, with a particular focus on Jao and De Feo's SIDH protocol. Time permitting, I will aim to give a high-level overview of the subsequent SIKE submission to NIST's post-quantum standardization effort.
+    location: ML 53
+    subtitle: A tutorial on lattice-based cryptography
+    speaker: Adeline Roux-Langlois
+    affiliation: GREYC, Caen, France
+    #details: This talk will give an introduction to isogeny-based cryptography, with a particular focus on Jao and De Feo's SIDH protocol. Time permitting, I will aim to give a high-level overview of the subsequent SIKE submission to NIST's post-quantum standardization effort.
+    details: 
   - title: Coffee Break
     time: 10:30 AM - 11:00 AM
-    location: DC 1301
-  - title: "SAC Summer School - Isogeny-based cryptography: A gentle introduction to post-quantum ECC"
+    location: #DC 1301
+  - title: "SAC Summer School - Lattice-based cryptography"
     time: 11:00 AM - 12:15 PM
-    location: DC 1302
-    subtitle: A tutorial on post-quantum elliptical curve cryptography
-    speaker: Craig Costello
-    affiliation: Microsoft Research
-    details: This talk will give an introduction to isogeny-based cryptography, with a particular focus on Jao and De Feo's SIDH protocol. Time permitting, I will aim to give a high-level overview of the subsequent SIKE submission to NIST's post-quantum standardization effort.
+    location: ML 53
+    subtitle: A tutorial on lattice-based cryptography
+    speaker: Adeline Roux-Langlois
+    affiliation: GREYC, Caen, France
+    #details: This talk will give an introduction to isogeny-based cryptography, with a particular focus on Jao and De Feo's SIDH protocol. Time permitting, I will aim to give a high-level overview of the subsequent SIKE submission to NIST's post-quantum standardization effort.
+    details: I will introduce lattices and hard problems over lattices, the LWE and SIS problems and explain how they are used to build encryption and signature schemes. Then I will introduce algebraic variants of LWE and SIS and how to build efficient constructions based on those variants.
   - title: Lunch
     time: 12:15 PM - 1:15 PM
-    location: DC 1301
-  - title: SAC Summer School - Provably Security in Symmetric Key Cryptography, Part 1
+    location: #DC 1301
+  - title: SAC Summer School - Post-quantum cryptography
     time: 1:15 PM - 2:45 PM
-    location: DC 1302
-    subtitle: An introduction to provably security in symmetric key cryptography
-    speaker: Tetsu Iwata
-    affiliation: Nagoya University
-    details: This tutorial will first review basic approaches for proving the security of symmetric key constructions. We use PRP/PRF switching to introduce game-playing technique and coefficient-H technique. We then illustrate applications of the techniques to show the security of the Feistel cipher.
+    location: ML 53
+    subtitle: A tutorial on post-quantum cryptography
+    speaker: David Jao
+    affiliation: University of Waterloo, Canada
+    #details: This tutorial will first review basic approaches for proving the security of symmetric key constructions. We use PRP/PRF switching to introduce game-playing technique and coefficient-H technique. We then illustrate applications of the techniques to show the security of the Feistel cipher.
+    details: I will introduce lattices and hard problems over lattices, the LWE and SIS problems and explain how they are used to build encryption and signature schemes. Then I will introduce algebraic variants of LWE and SIS and how to build efficient constructions based on those variants.
   - title: Coffee Break
     time: 2:45 PM - 3:15 PM
-    location: DC 1301
-  - title: SAC Summer School - Provably Security in Symmetric Key Cryptography, Part 2
+    location: #DC 1301
+  - title: SAC Summer School - Post-quantum cryptography
     time: 3:15 PM - 4:30 PM
-    location: DC 1302
-    subtitle: A tutorial on the provable security of block cipher modes of operation
-    speaker: Tetsu Iwata
-    affiliation: Nagoya University
-    details: In the second part of the tutorial, we will cover block cipher modes of operation. We introduce tweakable block ciphers and cover authenticated encryption schemes with focus on versions of OCB and recently designed ZOCB.
+    location: ML 53
+    subtitle: A tutorial on post-quantum cryptography
+    speaker: David Jao
+    affiliation: University of Waterloo, Canada
+    #details: In the second part of the tutorial, we will cover block cipher modes of operation. We introduce tweakable block ciphers and cover authenticated encryption schemes with focus on versions of OCB and recently designed ZOCB.
+    details:
 
-- date: 2019-08-13
+- date: 2019-08-15
   sessions:
-  - title: SAC Summer School - Encrypted Search, Part 1
+  - title: SAC Summer School - Linear and differential cryptanalysis, Part 1
     time: 9:00 AM - 10:30 AM
-    location: DC 1302
-    subtitle: This tutorial will provide an overview of the area; including the design of encrypted search algorithms, their cryptanalysis and their integration into real-world systems.
-    speaker: Seny Kamara
-    affiliation: Brown University
-    details: The area of encrypted search is concerned with the design of cryptographic techniques to support various forms of search on encrypted data. Practical encrypted search algorithms could fundamentally change how we store and process data and have applications to many areas including database systems, cloud storage and even blockchains. This tutorial will provide an overview of the area; including the design of encrypted search algorithms, their cryptanalysis and their integration into real-world systems.
+    location: ML 53
+    subtitle: A tutorial on linear and differential cryptanalysis 
+    speaker: Tim Beyne
+    affiliation: KU Leuven, Belgium
+    details: The first half will cover the basics of linear cryptanalysis: linear approximations, correlation matrices and their properties, linear trails, and some methods for key-recovery.
   - title: Coffee Break
     time: 10:30 AM - 11:00 AM
-    location: DC 1301
-  - title: SAC Summer School - Encrypted Search, Part 2
+    location: #DC 1301
+  - title: SAC Summer School - Linear and differential cryptanalysis, Part 2
     time: 11:00 AM - 12:15 PM
-    location: DC 1302
-    subtitle: This tutorial will provide an overview of the area; including the design of encrypted search algorithms, their cryptanalysis and their integration into real-world systems.
-    speaker: Seny Kamara
-    affiliation: Brown University
-    details: The area of encrypted search is concerned with the design of cryptographic techniques to support various forms of search on encrypted data. Practical encrypted search algorithms could fundamentally change how we store and process data and have applications to many areas including database systems, cloud storage and even blockchains. This tutorial will provide an overview of the area; including the design of encrypted search algorithms, their cryptanalysis and their integration into real-world systems.
+    location: ML 53
+    subtitle: A tutorial on linear and differential cryptanalysis
+    speaker: Tim Beyne
+    affiliation: KU Leuven, Belgium
+    details: The second half will introduce differential cryptanalysis: differentials, differential characteristics, quasidifferential transition matrices and trails, and key-recovery techniques.
   - title: Lunch
     time: 12:15 PM - 1:15 PM
-    location: DC 1301
-  - title: SAC Summer School - Hands-on hardware design for cryptography, Part 1
+    location: #DC 1301
+  - title: SAC Summer School - Physical attacks and countermeasures, Part 1
     time: 1:15 PM - 2:45 PM
-    location: DC 1302
-    subtitle: In this tutorial, you will be introduced to hardware design for cryptography.
-    speaker: Nele Mentens
-    affiliation: Katholieke Universiteit (KU) Leuven
-    details: "In this tutorial, you will be introduced to hardware design for cryptography. You will learn to work with EDA (Electronic Design Automation) tools for design and simulation, and get familiar with hardware architectures for Elliptic Curve Cryptography (ECC). The tutorial consists of a step-by-step guide and exercises to implement an ECC hardware architecture using VHDL. Requirements: (i) bring your laptop with the necessary software installed (follow the pre-tutorial instructions which will be sent out the week before the summer school) and (ii) attend the session on ECC on Monday."
+    location: ML 53
+    subtitle: 
+    speaker: Tim Güneysu
+    affiliation: Ruhr-Universität Bochum, Germany
+    details: 
   - title: Coffee Break
     time: 2:45 PM - 3:15 PM
-    location: DC 1301
-  - title: SAC Summer School - Hands-on hardware design for cryptography, Part 2
+    location: #DC 1301
+  - title: SAC Summer School - Physical attacks and countermeasures, Part 2
     time: 3:15 PM - 4:30 PM
-    location: DC 1302
-    subtitle: In this tutorial, you will be introduced to hardware design for cryptography.
-    speaker: Nele Mentens
-    affiliation: Katholieke Universiteit (KU) Leuven
-    details: "In this tutorial, you will be introduced to hardware design for cryptography. You will learn to work with EDA (Electronic Design Automation) tools for design and simulation, and get familiar with hardware architectures for Elliptic Curve Cryptography (ECC). The tutorial consists of a step-by-step guide and exercises to implement an ECC hardware architecture using VHDL. Requirements: (i) bring your laptop with the necessary software installed (follow the pre-tutorial instructions which will be sent out the week before the summer school) and (ii) attend the session on ECC on Monday."
+    location: ML 53
+    subtitle: 
+    speaker: Tim Güneysu
+    affiliation: Ruhr-Universität Bochum, Germany
+    details: 
 
-- date: 2019-08-14
+- date: 2019-08-16
   sessions:
   - title: Registration
     time: 8:30 AM - 9:15 AM
     subtitle: Pick up your badge
-    location: DC 1301
+    location: #DC 1301
   - title: Opening Remarks
     time: 9:15 AM - 9:25 AM
-    location: DC 1302
-  - title: Differential cryptanalysis
-    time: 9:25 AM - 10:15 AM
-    location: DC 1302
-    talks: 
-      - title: Probabilistic Mixture Differential Cryptanalysis on round-reduced AES
-        authors: Lorenzo Grassi (IAIK, TU Graz (Austria))
-      - title: Iterative Differential Characteristic of TRIFLE-BC
-        authors: Fukang Liu (East China Normal University, Shanghai, China & University of Hyogo, Hyogo, Japan); Takanori Isobe (National Institute of Information and Communications Technology, Japan & University of Hyogo, Hyogo, Japan)
+    location: ML 53
+  - title: Invited lecture - Hardware Security - Directions and Challenges
+    time: 9:25 AM - 10:25 PM
+    location: ML 53
+    speaker: Tim Güneysu
+    affiliation: Ruhr-Universität Bochum
+    details: 
   - title: Coffee Break
-    time: 10:15 AM - 10:45 AM
-    location: DC 1301
-  - title: Tweakable block ciphers
-    time: 10:45 AM - 11:35 AM
-    location: DC 1302
-    talks:
-    - title: Plaintext Recovery Attacks against XTS Beyond Collisions
-      authors: Takanori Isobe (University of Hyogo & NICT); Kazuhiko Minematsu (NEC corporation)
-    - title: Cryptanalysis of SKINNY in the Framework of the SKINNY 2018-2019 Cryptanalysis Competition
-      authors: Patrick Derbez (Univ Rennes, CNRS, IRISA); Virginie Lallemand (Université de Lorraine, CNRS, Inria, LORIA); Aleksei Udovenko (SnT and CSC, University of Luxembourg)
-  - title: Invited lecture - Block Cipher Modes of Operation and Provable Security
-    time: 11:35 AM - 12:30 PM
-    location: DC 1302
-    speaker: Tetsu Iwata
-    affiliation: Nagoya University
-    details: Provable security results guarantee the security of block cipher modes of operation. However, we have witnessed several cases where security proofs of standardized modes of operation have been found to be wrong or contain a gap. In some cases, the proof can be repaired without changing the scheme, or sometimes the tiny gap in the proof triggers various attacks on the scheme. In this talk, we review several cases and discuss ways to improve the situation.
+    time: 10:25 AM - 10:55 AM
+    location: #DC 1301
+  - title: Cryptanalysis of lightweight ciphers
+    time: 10:55 AM - 12:25 PM
+    location: ML 53
+    talks: 
+      - title: "More Balanced Polynomials: Cube Attacks on 810- and 825- Round of Trivium with Practical Complexity"
+        authors: Hao Lei, Jiahui He, Kai Hu and Meiqin Wang
+      - title: "A Closer Look at the S-box: Deeper Analysis of Round-Reduced ASCON-HASH"
+        authors: Xiaorui Yu, Fukang Liu, Gaoli Wang, Siwei Sun and Willi Meier
+      - title: Improving the Rectangle Attack on GIFT-64
+        authors: Yincen Chen, Nana Zhang, Xuanyu Liang, Ling Song, Qianqian Yang and Zhuohui Feng
   - title: Lunch break
-    time: 12:30 PM - 1:45 PM
-    subtitle: Lunch is not included
-  - title: Block ciphers and permutations
-    time: 1:45 PM - 3:00 PM
-    location: DC 1302
-    talks: 
-    - title: Algebraic Cryptanalysis of Variants of Frit
-      authors: Christoph Dobraunig (Radboud University Nijmegen); Maria Eichlseder (Graz University of Technology); Florian Mendel (Infineon Technologies AG); Markus Schofnegger (Graz University of Technology)
-    - title: Improved Interpolation Attacks on Cryptographic Primitives of Low Algebraic Degree
-      authors: Chaoyun Li and Bart Preneel (imec-COSIC, KU Leuven)
-    - title: A General Framework for the Related-key Linear Attack against Block Ciphers with Linear Key Schedules
-      authors: Jungkeun Lee, Bonwook Koo, and Woo-Hwan Kim (NSR)
-  - title: Coffee Break
-    time: 3:00 PM - 3:30 PM
-    location: DC 1301
-  - title: Real-world cryptography
-    time: 3:30 PM - 5:10 PM
-    location: DC 1302
-    talks: 
-    - title: Towards a Practical Clustering Analysis over Encrypted Data
-      authors: Jung Hee Cheon, Duhyeong Kim, and Jai Hyun Park (Seoul National University)
-    - title: Breaking the Bluetooth Pairing – The Fixed Coordinate Invalid Curve Attack
-      authors: Lior Neumann and Eli Biham (Technion)
-    - title: "Using TopGear in Overdrive: A more efficient ZKPoK for SPDZ"
-      authors: Carsten Baum (Aarhus University); Daniele Cozzo (KU Leuven); Nigel P. Smart (KU Leuven and Uni Bristol)
-    - title: On the Real-World Instantiability of Admissible Hash Functions and Efficient Verifiable Random Functions
-      authors: Tibor Jager and David Niehues (Paderborn University)
-  - title: BBQ
-    time: 6:00 PM - 8:00 PM
-    location: Waterloo Park
-    subtitle: 'The conference “banquet” will be a barbecue in nearby Waterloo Park, on Wednesday August 14 from 6-8pm, at Picnic Shelter #20.'
-    details: "<p>It is approximately a 20 minutes walk from the conference location.  A group will be walking over to the park, leaving from the Davis Centre (DC) 1301 room at 5:30.  If you have mobility requirements, please contact the conference chairs to make arrangements to get to the park.  The exact latitude and longitude of the picnic shelter is <a href='https://www.google.com/maps/place/43%C2%B027%2754.8%22N+80%C2%B032%2711.5%22W/@43.4652249,-80.5376283' target='_blank'>43.465222, -80.536528</a>.</p><p><img src='images/map.jpg' alt='Map to BBQ'></p><p>In the event of inclement weather, the barbecue will be relocated to our backup rain location, the Math 3 (M3) atrium, on campus. An announcement will be made during the day at the conference if we are relocating.</p>"
-
-- date: 2019-08-15
-  sessions:
-  - title: Stream ciphers and lightweight crypto
-    time: 9:00 AM - 10:15 AM
-    location: DC 1302
+    time: 12:25 PM - 1:45 PM
+    subtitle: Lunch is included
+    location: #DC 1301
+  - title: Side-channel attacks and countermeasures
+    time: 1:45 PM - 3:15 PM
+    location: ML 53
     talks:
-    - title: Tight Security Bounds for Generic Stream Cipher Constructions
-      authors: Matthias Hamann, Matthias Krause, and Alexander Moch (Universität Mannheim)
-    - title: "On the Data Limitation of Small-State Stream Ciphers: Correlation Attacks on Fruit-80 and Plantlet"
-      authors: Yosuke Todo (NTT Secure Platform Laboratories); Willi Meier (FHNW); Kazumaro Aoki (NTT Secure Platform Laboratories)
-    - title: A Lightweight Alternative to PMAC
-      authors: Kazuhiko Minematsu (NEC Corporation)
+    - title: "Mask Compression: High-Order Masking on Memory-Constrained Devices"
+      authors: Markku-Juhani Saarinen and Mélissa Rossi 
+    - title: "Not so Difficult in the End: Breaking the ASCADv2 Dataset"
+      authors: Lichao Wu, Guilherme Perin and Stjepan Picek
+    - title: Threshold Implementations with Non-Uniform Inputs
+      authors: Siemen Dhooghe and Artemii Ovchinnikov
   - title: Coffee Break
-    time: 10:15 AM - 10:45 AM
-    location: DC 1301
-  - title: Post-quantum analysis
-    time: 10:45 AM - 12:30 PM
-    location: DC 1302
-    talks: 
-    - title: An Improved Security Analysis on an Indeterminate Equation Public Key Cryptosystem by Evaluation Attacks
-      authors: Akifumi Muroi, Shinya Okumura, and Atsuko Miyaji (Osaka University)
-    - title: Ternary Syndrome Decoding with Large Weight
-      authors: Rémi Bricout, André Chailloux, Thomas Debris-Alazard, and Matthieu Lequesne (Inria de Paris)
-    - title: Exploring Trade-offs in Batch Bounded Distance Decoding
-      authors: Martin R. Albrecht and Benjamin R. Curtis (Royal Holloway University of London); Thomas Wunderer (BSI, Germany)
-    - title: Quantum Slide Attacks
-      authors: Xavier Bonnetain, Maria Naya-Plasencia, and André Schrottenloher (Inria, France)
-  - title: Lunch break
-    time: 12:30 PM - 1:45 PM
-    subtitle: Lunch is not included
-  - title: Post-quantum implementations
-    time: 1:45 PM - 3:00 PM
-    location: DC 1302
-    talks: 
-    - title: "XMSS and Embedded Systems: XMSS Hardware Accelerators for RISC-V"
-      authors: Wen Wang (Yale University, New Haven, CT, USA); Bernhard Jungk (Independent Researcher); Julian Wälde (Fraunhofer SIT, Darmstadt, Germany); Shuwen Deng (Yale University, New Haven, CT, USA); Naina Gupta (Fraunhofer Singapore, Singapore); Jakub Szefer (Yale University, New Haven, CT, USA); Ruben Niederhagen (Fraunhofer SIT, Darmstadt, Germany)
-    - title: A timing attack on the HQC encryption scheme
-      authors: Thales Bandiera Paiva and Routo Terada (University of Sao Paulo)
-    - title: Block-Anti-Circulant Unbalanced Oil and Vinegar
-      authors: Alan Szepieniec (KU Leuven and Nervos Foundation); Bart Preneel (KU Leuven)
-  - title: Coffee Break
-    time: 3:00 PM - 3:30 PM
-    location: DC 1301
-  - title: Invited lecture - Looking Back – My Life as a Mathematician and Cryptographer
-    time: 3:30 PM - 4:45 PM
-    location: DC 1302
-    speaker: Doug Stinson
-    details: In this talk, I will first discuss my history with SAC, which goes back to the initial workshop held at Queen’s University in 1994. Then I will reminisce mainly about my experiences as a student and a beginning researcher. I will talk about how I first got involved in mathematical research and how I became a mathematician and eventually a mathematical cryptographer. I will also recollect some of my main influences along the way, including important people, books and papers. Along the way, I will also discuss various aspects of my research philosophy, including the importance I place on creativity, originality and clear technical exposition.
-  - title: Reception
-    time: 4:45 PM - 6:00 PM
-    location: M3 Atrium
-    details: A conference reception will be held on Thursday August 15 from 4:45-6:00 pm in the atrium of the Math 3 (M3) building, a short walk from the conference location in the Davis Centre.
-
-- date: 2019-08-16
-  sessions:
-  - title: Symmetric Cryptography
-    time: 9:00 AM - 10:15 AM
-    location: DC 1302
-    talks: 
-    - title: A DFA Attack on White-Box Implementations of AES with External Encodings
-      authors: Alessandro Amadori (Eindhoven University of Technology); Wil Michiels (NXP Semiconductors and Eindhoven University of Technology); Peter Roelse (Irdeto B.V.)
-    - title: Parallelizable Authenticated Encryption with Small State Size
-      authors: Akiko Inoue and Kazuhiko Minematsu (NEC Corporation)
-    - title: Deep Neural Network Attribution Methods for Leakage Analysis and Symmetric Key Recovery
-      authors: Benjamin Hettwer and Stefan Gehrer (Robert Bosch GmbH, Corporate Sector Research); Tim Güneysu (Horst Görtz Institute for IT-Security, Ruhr University Bochum)
-  - title: Coffee Break
-    time: 10:15 AM - 10:45 AM
-    location: DC 1301
+    time: 3:15 PM - 3:45 PM
+    location: #DC 1301
   - title: Post-quantum constructions
-    time: 10:45 AM - 11:35 AM
-    location: DC 1302
+    time: 3:45 PM - 5:15 PM
+    location: ML 53
+    talks: 
+    - title: "SMAUG: Pushing Lattice-based Key Encapsulation Mechanisms to the Limits"
+      authors: Jung Hee Cheon, Hyeongmin Choe, Dongyeon Hong and MinJune Yi
+    - title: A Post-Quantum Round-Optimal Oblivious PRF from Isogenies 
+      authors: Andrea Basso
+    - title: "Traceable Ring Signatures from Group Actions: Logarithmic, Flexible, and Quantum Resistant"
+      authors: Wei Wei, Min Luo, Zijian Bao, Cong Peng and Debiao He
+  - title: Reception
+    time: 5:15 PM - 6:15 PM
+    location: ML 53
+    #subtitle: 'The conference “banquet” will be a barbecue in nearby Waterloo Park, on Wednesday August 14 from 6-8pm, at Picnic Shelter #20.'
+    #details: "<p>It is approximately a 20 minutes walk from the conference location.  A group will be walking over to the park, leaving from the Davis Centre (DC) 1301 room at 5:30.  If you have mobility requirements, please contact the conference chairs to make arrangements to get to the park.  The exact latitude and longitude of the picnic shelter is <a href='https://www.google.com/maps/place/43%C2%B027%2754.8%22N+80%C2%B032%2711.5%22W/@43.4652249,-80.5376283' target='_blank'>43.465222, -80.536528</a>.</p><p><img src='images/map.jpg' alt='Map to BBQ'></p><p>In the event of inclement weather, the barbecue will be relocated to our backup rain location, the Math 3 (M3) atrium, on campus. An announcement will be made during the day at the conference if we are relocating.</p>"
+
+- date: 2019-08-17
+  sessions:
+  - title: Invited lecture - Robust and Non-malleable Threshold Schemes, AMD codes and External Difference Families
+    time: 9:00 AM - 10:00 AM
+    location: ML 53
+    speaker: Doug Stinson
+    details: We begin by reviewing the history of robust threshold schemes, which were introduced by Tampa and Woll in 1988. Various solutions over the years have used mathematical structures related to difference sets, including external difference families and algebraic manipulation detection codes. We present several constructions for these structures and discuss their application to robust threshold schemes. Finally, we present some recent (ongoing) work on non-malleable threshold schemes that employ a new variation of AMD codes, namely circular AMD codes. 
+  - title: Coffee Break
+    time: 10:00 AM - 10:30 AM
+    location: #DC 1301
+  - title: Symmetric cryptography and fault attacks
+    time: 10:30 AM - 12:00 AM
+    location: ML 53
     talks:
-    - title: "BBQ: Using AES in Picnic Signatures"
-      authors: Cyprien Delpech de Saint Guilhem (imec-COSIC, KU Leuven, Belgium; University of Bristol, United Kingdom); Lauren De Meyer and Emmanuela Orsini (imec-COSIC, KU Leuven, Belgium); Nigel P. Smart (imec-COSIC, KU Leuven, Belgium; University of Bristol, United Kingdom)
-    - title: Towards practical GGM-based PRF from (Module-)Learning-with-Rounding
-      authors: Chitchanok Chuengsatiansup (Inria and ENS de Lyon, France); Damien Stehle (ENS de Lyon, Laboratoire LIP (U. Lyon, CNRS, ENSL, INRIA, UCBL), France)</p>
-  - title: "Invited lecture - The state-of-the-art in supersingular isogenies: the SIKE protocol and its cryptanalysis"
-    time: 11:35 AM - 12:30 PM
-    location: DC 1302
-    speaker: Craig Costello
-    details: This talk will give a detailed description of the supersingular isogeny key encapsulation (SIKE) protocol and its implementation. We will discuss decisions made in the latest specification of SIKE, insights provided by recent cryptanalysis, and will aim to conclude with some possible directions for future work.
+    - title: The Random Fault Model
+      authors: Siemen Dhooghe and Svetla Nikova
+    - title: Probabilistic Related-Key Statistical Saturation Cryptanalysis 
+      authors: Muzhou Li, Nicky Mouha, Ling Sun and Meiqin Wang
+    - title: Compactly Committing Authenticated Encryption Using Encryptment and Tweakable Block Cipher
+      authors: Shoichi Hirose and Kazuhiko Minematsu
+  - title: Lunch break
+    time: 12:00 PM - 2:00 PM
+    subtitle: Lunch is included
+  - title: Post-quantum analysis and implementations 
+    time: 2:00 PM - 3:30 PM
+    location: ML 53
+    talks: 
+    - title: Bit Security Analysis of Lattice-Based KEMs under Plaintext-Checking Attacks  
+      authors: Ruiqi Mi, Haodong Jiang and Zhenfeng Zhang
+    - title: "Quantum Cryptanalysis of OTR and OPP: Attacks on Confidentiality, and Key-Recovery"
+      authors: Melanie Jauch and Varun Maram
+    - title: Fast and Efficient Hardware Implementation of HQC
+      authors: Sanjay Deshpande, Chuanqi Xu, Mamuri Nawan, Kashif Nawaz and Jakub Szefer
+  - title: Coffee Break
+    time: 3:30 PM - 4:00 PM
+    location: #DC 1301
+  - title: Homomorphic encryption
+    time: 4:00 PM - 5:00 PM
+    location: ML 53
+    talks: 
+    - title: On the Precision Loss in Approximate Homomorphic Encryption
+      authors: Anamaria Costache, Benjamin Curtis, Erin Hales, Sean Murphy, Tabitha Ogilvie and Rachel Player
+    - title: Secure Function Extensions to Additively Homomorphic Cryptosystems
+      authors: Mounika Pratapa and Aleksander Essex 
+  - title: Banquet at the Wu Conference Centre
+    time: 6:00 PM - 9:00 PM
+    location: 
+    details: 
+
+- date: 2019-08-18
+  sessions:
+  - title: Invited lecture - A geometric approach to symmetric-key cryptanalysis
+    time: 9:00 AM - 10:00 AM
+    location: ML 53
+    speaker: Tim Beyne
+    details: I will present recent results that show that linear, differential and integral cryptanalysis are different facets of a single theory. I will introduce the basic principles of this point of view, and show how the choice of base field (complex or p-adic) and basis (diagonalizing an action) correspond to existing techniques. A few applications of this point of view will be given, starting with the analysis of invariants of cryptographic primitives and how they relate to (multiple) linear cryptanalysis. As a second application, I will discuss how the geometric approach leads to quasidifferential trails and how these can be used to avoid statistical independence assumptions in differential cryptanalysis. Finally, I will present preliminary results on an extension of integral cryptanalysis called ultrametric integral cryptanalysis.
+  - title: Coffee Break
+    time: 10:00 AM - 10:30 AM
+    location: #DC 1301
+  - title: Public-key cryptography 
+    time: 10:30 AM - 11:00 AM
+    location: ML 53
+    talks: 
+    - title: Generalized Implicit Factorization Problem
+      authors: Yansong Feng, Abderrahmane Nitaj and Yanbin Pan
+  - title: Differential cryptanalysis
+    time: 11:00 AM - 12:30 PM
+    location: ML 53
+    talks:
+    - title: "CLAASP: a Cryptographic Library for the Automated Analysis of Symmetric Primitives"
+      authors: Emanuele Bellini, David Gerault, Juan Grados, Yun Ju Huang, Rusydi Makarim, Mohamed Rachidi and Sharwan Tiwari
+    - title: Parallel SAT Framework to Find Clustering of Differential Characteristics and Its Applications
+      authors: Kosei Sakamoto, Ryoma Ito and Takanori Isobe
+    - title: "Deep Learning-Based Rotational-XOR Distinguishers for AND-RX Block Ciphers: Evaluations on Simeck and Simon"
+      authors: Amirhossein Ebrahimi Moghaddam, David Gerault and Paolo Palmieri 
