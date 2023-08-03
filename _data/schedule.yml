@@ -9,8 +9,7 @@
     subtitle: A tutorial on lattice-based cryptography
     speaker: Adeline Roux-Langlois
     affiliation: GREYC, Caen, France
-    #details: This talk will give an introduction to isogeny-based cryptography, with a particular focus on Jao and De Feo's SIDH protocol. Time permitting, I will aim to give a high-level overview of the subsequent SIKE submission to NIST's post-quantum standardization effort.
-    details: 
+    details: This talk will give an introduction to isogeny-based cryptography, with a particular focus on Jao and De Feo's SIDH protocol. Time permitting, I will aim to give a high-level overview of the subsequent SIKE submission to NIST's post-quantum standardization effort.
   - title: Coffee Break
     time: 10:30 AM - 11:00 AM
     location: #DC 1301
@@ -20,7 +19,6 @@
     subtitle: A tutorial on lattice-based cryptography
     speaker: Adeline Roux-Langlois
     affiliation: GREYC, Caen, France
-    #details: This talk will give an introduction to isogeny-based cryptography, with a particular focus on Jao and De Feo's SIDH protocol. Time permitting, I will aim to give a high-level overview of the subsequent SIKE submission to NIST's post-quantum standardization effort.
     details: I will introduce lattices and hard problems over lattices, the LWE and SIS problems and explain how they are used to build encryption and signature schemes. Then I will introduce algebraic variants of LWE and SIS and how to build efficient constructions based on those variants.
   - title: Lunch
     time: 12:15 PM - 1:15 PM
@@ -31,8 +29,7 @@
     subtitle: A tutorial on post-quantum cryptography
     speaker: David Jao
     affiliation: University of Waterloo, Canada
-    #details: This tutorial will first review basic approaches for proving the security of symmetric key constructions. We use PRP/PRF switching to introduce game-playing technique and coefficient-H technique. We then illustrate applications of the techniques to show the security of the Feistel cipher.
-    details: I will introduce lattices and hard problems over lattices, the LWE and SIS problems and explain how they are used to build encryption and signature schemes. Then I will introduce algebraic variants of LWE and SIS and how to build efficient constructions based on those variants.
+    details: 
   - title: Coffee Break
     time: 2:45 PM - 3:15 PM
     location: #DC 1301
@@ -42,9 +39,7 @@
     subtitle: A tutorial on post-quantum cryptography
     speaker: David Jao
     affiliation: University of Waterloo, Canada
-    #details: In the second part of the tutorial, we will cover block cipher modes of operation. We introduce tweakable block ciphers and cover authenticated encryption schemes with focus on versions of OCB and recently designed ZOCB.
     details:
-
 - date: 2019-08-15
   sessions:
   - title: SAC Summer School - Linear and differential cryptanalysis, Part 1
@@ -53,7 +48,7 @@
     subtitle: A tutorial on linear and differential cryptanalysis 
     speaker: Tim Beyne
     affiliation: KU Leuven, Belgium
-    details: The first half will cover the basics of linear cryptanalysis: linear approximations, correlation matrices and their properties, linear trails, and some methods for key-recovery.
+    details: "The first half will cover the basics of linear cryptanalysis: linear approximations, correlation matrices and their properties, linear trails, and some methods for key-recovery."
   - title: Coffee Break
     time: 10:30 AM - 11:00 AM
     location: #DC 1301
@@ -63,7 +58,7 @@
     subtitle: A tutorial on linear and differential cryptanalysis
     speaker: Tim Beyne
     affiliation: KU Leuven, Belgium
-    details: The second half will introduce differential cryptanalysis: differentials, differential characteristics, quasidifferential transition matrices and trails, and key-recovery techniques.
+    details: "The second half will introduce differential cryptanalysis: differentials, differential characteristics, quasidifferential transition matrices and trails, and key-recovery techniques."
   - title: Lunch
     time: 12:15 PM - 1:15 PM
     location: #DC 1301
@@ -101,19 +96,7 @@
     speaker: Tim Güneysu
     affiliation: Ruhr-Universität Bochum
     details: 
-=======
     location: DC 1302
-  - title: Differential cryptanalysis
-    time: 9:25 AM - 10:15 AM
-    location: DC 1302
-    talks: 
-      - title: Probabilistic Mixture Differential Cryptanalysis on round-reduced AES
-        authors: Lorenzo Grassi (IAIK, TU Graz (Austria))
-        # preproceeding: preproceedings/grassi.pdf
-        # slides: slides/grassi.pdf
-      - title: Iterative Differential Characteristic of TRIFLE-BC
-        authors: Fukang Liu (East China Normal University, Shanghai, China & University of Hyogo, Hyogo, Japan); Takanori Isobe (National Institute of Information and Communications Technology, Japan & University of Hyogo, Hyogo, Japan)
->>>>>>> ebb0f49f0f793bb27118c46e131528684209c55f
   - title: Coffee Break
     time: 10:25 AM - 10:55 AM
     location: #DC 1301
