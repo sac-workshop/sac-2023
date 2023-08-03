@@ -106,6 +106,7 @@
       - title: "More Balanced Polynomials: Cube Attacks on 810- and 825- Round of Trivium with Practical Complexity"
         authors: Hao Lei, Jiahui He, Kai Hu and Meiqin Wang
         preproceeding: preproceedings/10HaoLei.pdf
+	slides: preproceedings/10HaoLei.pdf
       - title: "A Closer Look at the S-box: Deeper Analysis of Round-Reduced ASCON-HASH"
         authors: Xiaorui Yu, Fukang Liu, Gaoli Wang, Siwei Sun and Willi Meier
         preproceeding: preproceedings/15XiaoruiYu.pdf
