@@ -9,7 +9,7 @@
     subtitle: A tutorial on lattice-based cryptography
     speaker: Adeline Roux-Langlois
     affiliation: GREYC, Caen, France
-    details: This talk will give an introduction to isogeny-based cryptography, with a particular focus on Jao and De Feo's SIDH protocol. Time permitting, I will aim to give a high-level overview of the subsequent SIKE submission to NIST's post-quantum standardization effort.
+    details: I will introduce lattices and hard problems over lattices, the LWE and SIS problems and explain how they are used to build encryption and signature schemes. Then I will introduce algebraic variants of LWE and SIS and how to build efficient constructions based on those variants.
   - title: Coffee Break
     time: 10:30 AM - 11:00 AM
     location: #DC 1301
@@ -66,8 +66,8 @@
     time: 1:15 PM - 2:45 PM
     location: ML 53
     subtitle: 
-    speaker: Tim Güneysu
-    affiliation: Ruhr-Universität Bochum, Germany
+    speaker: "Tim Güneysu"
+    affiliation: "Ruhr-Universität Bochum, Germany"
     details: 
   - title: Coffee Break
     time: 2:45 PM - 3:15 PM
@@ -76,8 +76,8 @@
     time: 3:15 PM - 4:30 PM
     location: ML 53
     subtitle: 
-    speaker: Tim Güneysu
-    affiliation: Ruhr-Universität Bochum, Germany
+    speaker: "Tim Güneysu"
+    affiliation: "Ruhr-Universität Bochum, Germany"
     details: 
 
 - date: 2019-08-16
@@ -93,8 +93,8 @@
   - title: Invited lecture - Hardware Security - Directions and Challenges
     time: 9:25 AM - 10:25 PM
     location: ML 53
-    speaker: Tim Güneysu
-    affiliation: Ruhr-Universität Bochum
+    speaker: "Tim Güneysu"
+    affiliation: "Ruhr-Universität Bochum"
     details: 
     location: DC 1302
   - title: Coffee Break
