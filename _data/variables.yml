@@ -12,7 +12,7 @@ proceedings_in_springer_lncs: true
 show_accepted_papers: true # set to false if you're not ready to display the accepted papers page yet
 show_preproceedings_links: false # set to false if you don't want to show links to preproceedings PDFs
 show_registration: true # set to false if you're not ready to show the registration page yet
-show_schedule: true # set to false if you're not ready to display the schedule page yet
+show_schedule: false # set to false if you're not ready to display the schedule page yet
 show_sponsors: true # set to false if you're not ready to display any sponsors
 show_speakers: true # set to false if you're not ready to display the invited speakers page yet
 show_summer_school: true # set to false if you're not ready to display the summer school information page yet
