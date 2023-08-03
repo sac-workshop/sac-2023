@@ -93,6 +93,7 @@
     location: #DC 1301
   - title: Opening Remarks
     time: 9:15 AM - 9:25 AM
+<<<<<<< HEAD
     location: ML 53
   - title: Invited lecture - Hardware Security - Directions and Challenges
     time: 9:25 AM - 10:25 PM
@@ -100,6 +101,19 @@
     speaker: Tim Güneysu
     affiliation: Ruhr-Universität Bochum
     details: 
+=======
+    location: DC 1302
+  - title: Differential cryptanalysis
+    time: 9:25 AM - 10:15 AM
+    location: DC 1302
+    talks: 
+      - title: Probabilistic Mixture Differential Cryptanalysis on round-reduced AES
+        authors: Lorenzo Grassi (IAIK, TU Graz (Austria))
+        # preproceeding: preproceedings/grassi.pdf
+        # slides: slides/grassi.pdf
+      - title: Iterative Differential Characteristic of TRIFLE-BC
+        authors: Fukang Liu (East China Normal University, Shanghai, China & University of Hyogo, Hyogo, Japan); Takanori Isobe (National Institute of Information and Communications Technology, Japan & University of Hyogo, Hyogo, Japan)
+>>>>>>> ebb0f49f0f793bb27118c46e131528684209c55f
   - title: Coffee Break
     time: 10:25 AM - 10:55 AM
     location: #DC 1301
