@@ -15,21 +15,21 @@
 - name: David Jao
   image: images/people/davidjao.jpg
   title: Professor, Faculty of Mathematics
-  affiliation:  University of Waterloo
+  affiliation:  University of Waterloo (Canada)
   bio: 
   - David Jao received his Ph.D in Mathematics from Harvard University in 2003. From 2003 to 2006, he worked in the Cryptography and Anti-Piracy Group at Microsoft Research, contributing cryptographic software modules for several Microsoft products. He is currently a professor in the Mathematics Faculty at the University of Waterloo. His research interests include elliptic curve cryptography, post-quantum cryptography, protocol design, and implementation. Prof. Jao is one of the inventors of isogeny-based cryptography and principal submitter of the SIKE cryptosystem, which advanced to round 4 of the NIST post-quantum cryptography standardization process before being broken in 2022. 
 
 - name: Adeline Roux-Langlois
   image: images/people/rouxlanglois.jpg
   title: Researcher
-  affiliation: GREYC, Caen, France
+  affiliation: CNRS, the GREYC lab (France)
   bio: 
   - Adeline Roux-Langlois is a full-time researcher for CNRS (chargée de recherche in French) at the GREYC Lab in Caen, France. She obtained her PhD at the ENS Lyon in 2014 and worked as a postdoctoral researcher at EPFL in Switzerland. Her research focuses on lattice-based cryptography, in particular on the theoretical hardness of the underlying assumptions like the Learning With Errors problem (LWE) and its Module variant (MLWE). She also works on cryptographic constructions based on lattices.
 
 - name: Doug Stinson
   image: images/people/doug_head.jpg
   title: Professor Emeritus, David R. Cheriton School of Computer Science
-  affiliation: University of Waterloo
+  affiliation: University of Waterloo (Canada)
   bio: 
   - Dr. Douglas Stinson obtained his PhD in Mathematics 1981 from the University of Waterloo. He  held postdoctoral and faculty positions at the University of Manitoba (1981-1989); the University of Nebraska-Lincoln (1990-1998); and the University of Waterloo (1998-2019), where he was a University Professor from 2013-2019. Following his retirement in 2019, Dr.  Stinson is a Professor Emeritus in the David R. Cheriton School of Computer Science at the University of Waterloo. He is also an Adjunct Research Professor in the School of Mathematics and Statistics at Carleton University.
   - Dr. Stinson's research interests include  combinatorial mathematics (especially combinatorial design theory and coding theory) and cryptography (especially unconditionally secure cryptography). He is the author of almost 400 research papers and books, including the best-selling textbook Cryptography Theory and Practice, which is now in its fourth edition. Dr. Stinson has supervised 17 PhD students and 16 Masters students. He was elected as a Fellow of the Royal Society of Canada in 2011. 
