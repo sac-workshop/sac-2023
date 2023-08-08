@@ -8,7 +8,7 @@
     location: ITC 317
     subtitle: A tutorial on lattice-based cryptography
     speaker: Adeline Roux-Langlois
-    affiliation: GREYC, Caen, France
+    affiliation: CNRS, GREYC, France
     details: I will introduce lattices and hard problems over lattices, the LWE and SIS problems and explain how they are used to build encryption and signature schemes. Then I will introduce algebraic variants of LWE and SIS and how to build efficient constructions based on those variants.
   - title: Coffee Break
     time: 10:30 AM - 11:00 AM
@@ -18,7 +18,7 @@
     location: ITC 317
     subtitle: A tutorial on lattice-based cryptography
     speaker: Adeline Roux-Langlois
-    affiliation: GREYC, Caen, France
+    affiliation: CNRS, GREYC, France
     details: I will introduce lattices and hard problems over lattices, the LWE and SIS problems and explain how they are used to build encryption and signature schemes. Then I will introduce algebraic variants of LWE and SIS and how to build efficient constructions based on those variants.
   - title: Lunch
     time: 12:15 PM - 1:15 PM
