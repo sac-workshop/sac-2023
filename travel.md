@@ -11,7 +11,7 @@ Selected Areas in Cryptography (SAC) 2023 and the SAC Summer School will be held
 
 ## Location on campus
 
-The SAC Summer School and SAC main conference take place at the University of New Brunswick main campus, in the Head Hall Auditorium. You can also access the [live map](https://unb.university-tour.com/fredericton-campus#).
+The SAC Summer School and SAC main conference take place at the University of New Brunswick main campus, in the Computer Science Information Technology Centre (ITC) building, Room ITC 317. You can also access the [live map](https://unb.university-tour.com/fredericton-campus#).
 
 <!--<img src="images/map.jpg" alt="Campus map with locations on campus for SAC"> -->
 
