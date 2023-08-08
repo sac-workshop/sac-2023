@@ -17,7 +17,7 @@ The registration fee for the SAC Summer School is $120 for regular attendees and
 
 ## Schedule
 
-All talks will take place on the University of New Brunswick, Fredericton main campus in the Head Hall Auditorium. <!-- You can find more detailed information on the [Schedule](schedule.html) page.-->
+All talks will take place on the University of New Brunswick, Fredericton main campus in the Computer Science Information Technology Centre (ITC) building, Room ITC 317. You can find more detailed information on the [Schedule](schedule.html) page. 
 For directions and travel arrangements, see [Travel and Accommodations](travel.html).
 
 <!-- <td>Lunch (included, DC 1301)</td>
