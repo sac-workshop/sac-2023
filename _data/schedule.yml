@@ -135,7 +135,7 @@
   - title: Post-quantum constructions
     time: 3:45 PM - 5:15 PM
     location: ITC 317
-    affiliation: "(Session chair: Markku-Juhani Saarinen)"
+    #affiliation: "(Session chair: Markku-Juhani Saarinen)"
     talks: 
     - title: "SMAUG: Pushing Lattice-based Key Encapsulation Mechanisms to the Limits"
       authors: Jung Hee Cheon, Hyeongmin Choe, Dongyeon Hong and MinJune Yi
