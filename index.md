@@ -41,3 +41,7 @@ SAC {{ site.data.variables.year }} also welcomes papers in any of the areas abov
 {% for d in site.data.dates %}
 - <b>{{ d.name }}</b>: {{ d.date }}
 {%- endfor %}
+
+## Virtual participation (updated on August 13, 2023)
+
+Due to the delay of getting a Canada visa, we had to accomodate a number of talks virtually via Zoom. If you plan to attend the conference virtually, an email should be sent to sac2023chairs@gmail.com for registration. 
