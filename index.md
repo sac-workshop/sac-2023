@@ -42,6 +42,6 @@ SAC {{ site.data.variables.year }} also welcomes papers in any of the areas abov
 - <b>{{ d.name }}</b>: {{ d.date }}
 {%- endfor %}
 
-## Virtual participation (updated on August 13, 2023)
+## Virtual participation
 
 Due to the delay of getting a Canada visa, we had to accommodate a number of talks virtually via Zoom at the last moment. If you plan to attend the conference virtually, an email should be sent to [{{ site.data.variables.organizer_email }}](mailto:{{ site.data.variables.organizer_email }}) for registration. 
