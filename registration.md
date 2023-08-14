@@ -12,7 +12,7 @@ The cost to attend the Selected Areas in Cryptography (SAC) Summer School (Augus
 
 <a class="btn btn-primary" href="https://site.pheedloop.com/event/sac2023/home">Register</a>
 
-The registration cost for the summer school includes the summer school itself as well as coffee breaks and lunch on Monday and Tuesday. All the costs are in Canadian Dollars and include 15% HST (the Harmonized Sales Taxi) in New Brunswick.
+The registration cost for the summer school includes the summer school itself as well as coffee breaks and lunch on Monday and Tuesday. All the costs are in Canadian Dollars and include 15% HST (the Harmonized Sales Tax) in New Brunswick.
 
 The cost to attend the SAC main conference (August 16-18, 2023) is:
 
