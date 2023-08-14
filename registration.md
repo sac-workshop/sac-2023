@@ -28,6 +28,9 @@ The registration cost for the SAC main conference includes the conference itself
 ## Virtual participation
 
 Due to the delay of getting a Canada visa, we had to accommodate a number of talks virtually via Zoom at the last moment. If you plan to attend the conference virtually, an email should be sent to [{{ site.data.variables.organizer_email }}](mailto:{{ site.data.variables.organizer_email }}) for registration. 
+
+
+The cost to attend the SAC main conference (August 16-18, 2023) virtually is $135 (HST included).   
 <!-- The conference dinner will be a barbecue in nearby Waterloo Park, within walking distance.  If you have mobility restrictions, please contact the chairs to make arrangements to get to the park.-->
 
 <!--
