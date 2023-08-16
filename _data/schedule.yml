@@ -123,7 +123,7 @@
     - title: "Mask Compression: High-Order Masking on Memory-Constrained Devices"
       authors: "Markku-Juhani Saarinen and Mélissa Rossi "
       preproceeding: preproceedings/2Markku-JuhaniSaarinen.pdf
-    - title: "Not so Difficult in the End: Breaking the ASCADv2 Dataset"
+    - title: "Not so Difficult in the End: Breaking the Lookup Table-based Affine Masking Scheme"
       authors: Lichao Wu, Guilherme Perin and Stjepan Picek
       preproceeding: preproceedings/7LichaoWu.pdf
     - title: Threshold Implementations with Non-Uniform Inputs
