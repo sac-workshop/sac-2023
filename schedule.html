@@ -49,7 +49,10 @@ title: Schedule
     {% if session.details %}
       <div class="text-muted">{{ session.details }}</div>
     {% endif %}
-    {% if session.talks %}
+    {% if session.slides %}
+    <ul><li><a href="{{ session.slides }}">Slides</a></li></ul>
+    {% endif %}
+{% if session.talks %}
       {% for talk in session.talks %}
         <p>
           <b>{{ talk.title }}</b><br>

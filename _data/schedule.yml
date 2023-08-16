@@ -10,6 +10,7 @@
     speaker: Adeline Roux-Langlois
     affiliation: CNRS, GREYC, France
     details: I will introduce lattices and hard problems over lattices, the LWE and SIS problems and explain how they are used to build encryption and signature schemes. Then I will introduce algebraic variants of LWE and SIS and how to build efficient constructions based on those variants.
+    # slides: slides/lattice.pdf
   - title: Coffee Break
     time: 10:30 AM - 11:00 AM
     location: ITC 307
