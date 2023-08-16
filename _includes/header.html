@@ -86,58 +86,58 @@ h1, h2, h3, h4, h5, h6 {
       <div class="container-fluid">
         <ul class="nav fw-bold justify-content-center text-uppercase">
           <li class="nav-item">
-            {% if page.name == 'index.md' %}<span class="btn btn-secondary fw-bold">Home</span>
+            {% if page.name == 'index.md' %}<span class="btn btn-info fw-bold">Home</span>
             {% else %}<a class="nav-link" href="index.html">Home</a>
             {% endif %}
           </li>
           <li class="nav-item">
-            {% if page.name == 'about.md' %}<span class="btn btn-secondary fw-bold">About</span>
+            {% if page.name == 'about.md' %}<span class="btn btn-info fw-bold">About</span>
             {% else %}<a class="nav-link" href="about.html">About</a>
             {% endif %}
           </li>
           <li class="nav-item">
-            {% if page.name == 'cfp.md' %}<span class="btn btn-secondary fw-bold">Call for papers</span>
+            {% if page.name == 'cfp.md' %}<span class="btn btn-info fw-bold">Call for papers</span>
             {% else %}<a class="nav-link" href="cfp.html">Call for papers</a>
             {% endif %}
           </li>
           {% if site.data.variables.show_registration %}
           <li class="nav-item">
-            {% if page.name == 'registration.md' %}<span class="btn btn-secondary fw-bold">Registration</span>
+            {% if page.name == 'registration.md' %}<span class="btn btn-info fw-bold">Registration</span>
             {% else %}<a class="nav-link" href="registration.html">Registration</a>
             {% endif %}
           </li>
           {% endif %}
           {% if site.data.variables.show_accepted_papers %}
           <li class="nav-item">
-            {% if page.name == 'accepted-papers.html' %}<span class="btn btn-secondary fw-bold">Accepted papers</span>
+            {% if page.name == 'accepted-papers.md' %}<span class="btn btn-info fw-bold">Accepted papers</span>
             {% else %}<a class="nav-link" href="accepted-papers.html">Accepted papers</a>
             {% endif %}
           </li>
           {% endif %}
           {% if site.data.variables.show_schedule %}
           <li class="nav-item">
-            {% if page.name == 'schedule.html' %}<span class="btn btn-secondary fw-bold">Schedule</span>
+            {% if page.name == 'schedule.html' %}<span class="btn btn-info fw-bold">Schedule</span>
             {% else %}<a class="nav-link" href="schedule.html">Schedule</a>
             {% endif %}
           </li>
           {% endif %}
           {% if site.data.variables.show_speakers and site.data.speakers.size > 0 %}
           <li class="nav-item">
-            {% if page.name == 'speakers.html' %}<span class="btn btn-secondary fw-bold">Speakers</span>
+            {% if page.name == 'speakers.html' %}<span class="btn btn-info fw-bold">Speakers</span>
             {% else %}<a class="nav-link" href="speakers.html">Speakers</a>
             {% endif %}
           </li>
           {% endif %}
           {% if site.data.variables.show_summer_school %}
           <li class="nav-item">
-            {% if page.name == 'summer-school.md' %}<span class="btn btn-secondary fw-bold">SAC Summer School</span>
+            {% if page.name == 'summer-school.md' %}<span class="btn btn-info fw-bold">SAC Summer School</span>
             {% else %}<a class="nav-link" href="summer-school.html">SAC Summer School</a>
             {% endif %}
           </li>
           {% endif %}
           {% if site.data.variables.show_travel %}
           <li class="nav-item">
-            {% if page.name == 'travel.md' %}<span class="btn btn-secondary fw-bold">Travel</span>
+            {% if page.name == 'travel.md' %}<span class="btn btn-info fw-bold">Travel</span>
             {% else %}<a class="nav-link" href="travel.html">Travel</a>
             {% endif %}
           </li>
