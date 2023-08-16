@@ -1,10 +1,10 @@
 - date: 2023-08-14
   sessions:
   - title: SAC Summer School - Registration
-    time: 8:30 AM - 9:00 AM
+    time: 8:30 AM – 9:00 AM
     location: ITC 307
   - title: SAC Summer School - Lattice-based cryptography, Part 1
-    time: 9:00 AM - 10:30 AM
+    time: 9:00 AM – 10:30 AM
     location: ITC 317
     subtitle: A tutorial on lattice-based cryptography
     speaker: Adeline Roux-Langlois
@@ -12,30 +12,30 @@
     details: I will introduce lattices and hard problems over lattices, the LWE and SIS problems and explain how they are used to build encryption and signature schemes. Then I will introduce algebraic variants of LWE and SIS and how to build efficient constructions based on those variants.
     # slides: slides/lattice.pdf
   - title: Coffee Break
-    time: 10:30 AM - 11:00 AM
+    time: 10:30 AM – 11:00 AM
     location: ITC 307
   - title: SAC Summer School - Lattice-based cryptography, Part 2
-    time: 11:00 AM - 12:15 PM
+    time: 11:00 AM – 12:15 PM
     location: ITC 317
     subtitle: A tutorial on lattice-based cryptography
     speaker: Adeline Roux-Langlois
     affiliation: CNRS, GREYC, France
     details: I will introduce lattices and hard problems over lattices, the LWE and SIS problems and explain how they are used to build encryption and signature schemes. Then I will introduce algebraic variants of LWE and SIS and how to build efficient constructions based on those variants.
   - title: Lunch
-    time: 12:15 PM - 1:15 PM
+    time: 12:15 PM – 1:15 PM
     location: ITC 307
   - title: SAC Summer School - Post-quantum cryptography, Part 1
-    time: 1:15 PM - 2:45 PM
+    time: 1:15 PM – 2:45 PM
     location: ITC 317
     subtitle: A tutorial on post-quantum cryptography
     speaker: David Jao
     affiliation: University of Waterloo, Canada
     details: 
   - title: Coffee Break
-    time: 2:45 PM - 3:15 PM
+    time: 2:45 PM – 3:15 PM
     location: ITC 307
   - title: SAC Summer School - Post-quantum cryptography, Part 2
-    time: 3:15 PM - 4:30 PM
+    time: 3:15 PM – 4:30 PM
     location: ITC 317
     subtitle: A tutorial on post-quantum cryptography
     speaker: David Jao
@@ -44,37 +44,37 @@
 - date: 2023-08-15
   sessions:
   - title: SAC Summer School - Linear and differential cryptanalysis, Part 1
-    time: 9:00 AM - 10:30 AM
+    time: 9:00 AM – 10:30 AM
     location: ITC 317
     subtitle: A tutorial on linear and differential cryptanalysis 
     speaker: Tim Beyne
     affiliation: KU Leuven, Belgium
     details: "The first half will cover the basics of linear cryptanalysis: linear approximations, correlation matrices and their properties, linear trails, and some methods for key-recovery."
   - title: Coffee Break
-    time: 10:30 AM - 11:00 AM
+    time: 10:30 AM – 11:00 AM
     location: ITC 307
   - title: SAC Summer School - Linear and differential cryptanalysis, Part 2
-    time: 11:00 AM - 12:15 PM
+    time: 11:00 AM – 12:15 PM
     location: ITC 317
     subtitle: A tutorial on linear and differential cryptanalysis
     speaker: Tim Beyne
     affiliation: KU Leuven, Belgium
     details: "The second half will introduce differential cryptanalysis: differentials, differential characteristics, quasidifferential transition matrices and trails, and key-recovery techniques."
   - title: Lunch
-    time: 12:15 PM - 1:15 PM
+    time: 12:15 PM – 1:15 PM
     location: ITC 307
   - title: SAC Summer School - Physical attacks and countermeasures, Part 1
-    time: 1:15 PM - 2:45 PM
+    time: 1:15 PM – 2:45 PM
     location: ITC 317
     subtitle: 
     speaker: "Tim Güneysu"
     affiliation: "Ruhr-Universität Bochum, Germany"
     details: 
   - title: Coffee Break
-    time: 2:45 PM - 3:15 PM
+    time: 2:45 PM – 3:15 PM
     location: ITC 307
   - title: SAC Summer School - Physical attacks and countermeasures, Part 2
-    time: 3:15 PM - 4:30 PM
+    time: 3:15 PM – 4:30 PM
     location: ITC 317
     subtitle: 
     speaker: "Tim Güneysu"
@@ -84,25 +84,25 @@
 - date: 2023-08-16
   sessions:
   - title: Registration
-    time: 8:30 AM - 9:15 AM
+    time: 8:30 AM – 9:15 AM
     subtitle: Pick up your badge
     location: ITC 307
   - title: Opening Remarks
-    time: 9:15 AM - 9:25 AM
+    time: 9:15 AM – 9:25 AM
     location: ITC 317
     subtitle: by Dr. Benedicenti and Dr. Ghorbani
   - title: Invited lecture - Hardware Security - Directions and Challenges
-    time: 9:25 AM - 10:25 PM
+    time: 9:25 AM – 10:25 PM
     location: ITC 317
     speaker: "Tim Güneysu"
     affiliation: "Ruhr-Universität Bochum"
     details: 
     location: ITC 317
   - title: Coffee Break
-    time: 10:25 AM - 10:55 AM
+    time: 10:25 AM – 10:55 AM
     location: ITC 307
   - title: Cryptanalysis of lightweight ciphers
-    time: 10:55 AM - 12:25 PM
+    time: 10:55 AM – 12:25 PM
     location: ITC 317
     talks: 
       - title: "More Balanced Polynomials: Cube Attacks on 810- and 825- Round of Trivium with Practical Complexity"
@@ -115,11 +115,11 @@
         authors: Yincen Chen, Nana Zhang, Xuanyu Liang, Ling Song, Qianqian Yang and Zhuohui Feng
         preproceeding: preproceedings/16YincenChen.pdf
   - title: Lunch break
-    time: 12:25 PM - 1:45 PM
+    time: 12:25 PM – 1:45 PM
     subtitle: Lunch is included
     location: ITC 307
   - title: Side-channel attacks and countermeasures
-    time: 1:45 PM - 3:15 PM
+    time: 1:45 PM – 3:15 PM
     location: ITC 317
     talks:
     - title: "Mask Compression: High-Order Masking on Memory-Constrained Devices"
@@ -132,10 +132,10 @@
       authors: Siemen Dhooghe and Artemii Ovchinnikov
       preproceeding: preproceedings/13SiemenDhooghe.pdf
   - title: Coffee Break
-    time: 3:15 PM - 3:45 PM
+    time: 3:15 PM – 3:45 PM
     location: ITC 307
   - title: Post-quantum constructions
-    time: 3:45 PM - 5:15 PM
+    time: 3:45 PM – 5:15 PM
     location: ITC 317
     talks: 
     - title: "SMAUG: Pushing Lattice-based Key Encapsulation Mechanisms to the Limits"
@@ -148,7 +148,7 @@
       authors: Wei Wei, Min Luo, Zijian Bao, Cong Peng and Debiao He
       preproceeding: preproceedings/19WeiWei.pdf
   - title: Reception
-    time: 5:15 PM - 6:15 PM
+    time: 5:15 PM – 6:15 PM
     location: ITC 317
     #subtitle: 'The conference “banquet” will be a barbecue in nearby Waterloo Park, on Wednesday August 14 from 6-8pm, at Picnic Shelter #20.'
     #details: "<p>It is approximately a 20 minutes walk from the conference location.  A group will be walking over to the park, leaving from the Davis Centre (DC) 1301 room at 5:30.  If you have mobility requirements, please contact the conference chairs to make arrangements to get to the park.  The exact latitude and longitude of the picnic shelter is <a href='https://www.google.com/maps/place/43%C2%B027%2754.8%22N+80%C2%B032%2711.5%22W/@43.4652249,-80.5376283' target='_blank'>43.465222, -80.536528</a>.</p><p><img src='images/map.jpg' alt='Map to BBQ'></p><p>In the event of inclement weather, the barbecue will be relocated to our backup rain location, the Math 3 (M3) atrium, on campus. An announcement will be made during the day at the conference if we are relocating.</p>"
@@ -156,15 +156,15 @@
 - date: 2023-08-17
   sessions:
   - title: Invited lecture - Robust and Non-malleable Threshold Schemes, AMD codes and External Difference Families
-    time: 9:00 AM - 10:00 AM
+    time: 9:00 AM – 10:00 AM
     location: ITC 317
     speaker: Doug Stinson
     details: We begin by reviewing the history of robust threshold schemes, which were introduced by Tampa and Woll in 1988. Various solutions over the years have used mathematical structures related to difference sets, including external difference families and algebraic manipulation detection codes. We present several constructions for these structures and discuss their application to robust threshold schemes. Finally, we present some recent (ongoing) work on non-malleable threshold schemes that employ a new variation of AMD codes, namely circular AMD codes. 
   - title: Coffee Break
-    time: 10:00 AM - 10:30 AM
+    time: 10:00 AM – 10:30 AM
     location: ITC 307
   - title: Symmetric cryptography and fault attacks
-    time: 10:30 AM - 12:00 AM
+    time: 10:30 AM – 12:00 AM
     location: ITC 317
     talks:
     - title: The Random Fault Model
@@ -177,10 +177,10 @@
       authors: Shoichi Hirose and Kazuhiko Minematsu
       preproceeding: preproceedings/20ShoichiHirose.pdf
   - title: Lunch break
-    time: 12:00 PM - 2:00 PM
+    time: 12:00 PM – 2:00 PM
     subtitle: Lunch is included
   - title: Post-quantum analysis and implementations 
-    time: 2:00 PM - 3:30 PM
+    time: 2:00 PM – 3:30 PM
     location: ITC 317
     talks: 
     - title: Bit Security Analysis of Lattice-Based KEMs under Plaintext-Checking Attacks  
@@ -193,10 +193,10 @@
       authors: Sanjay Deshpande, Chuanqi Xu, Mamuri Nawan, Kashif Nawaz and Jakub Szefer
       preproceeding: preproceedings/12SanjayDeshpande.pdf
   - title: Coffee Break
-    time: 3:30 PM - 4:00 PM
+    time: 3:30 PM – 4:00 PM
     location: ITC 307
   - title: Homomorphic encryption
-    time: 4:00 PM - 5:00 PM
+    time: 4:00 PM – 5:00 PM
     location: ITC 317
     talks: 
     - title: On the Precision Loss in Approximate Homomorphic Encryption
@@ -206,28 +206,28 @@
       authors: Mounika Pratapa and Aleksander Essex 
       preproceeding: preproceedings/17MounikaPratapa.pdf
   - title: Banquet at the Wu Conference Centre
-    time: 6:00 PM - 9:00 PM
+    time: 6:00 PM – 9:00 PM
     location: 
     details: 
 - date: 2023-08-18
   sessions:
   - title: Invited lecture - A geometric approach to symmetric-key cryptanalysis
-    time: 9:00 AM - 10:00 AM
+    time: 9:00 AM – 10:00 AM
     location: ITC 317
     speaker: Tim Beyne
     details: I will present recent results that show that linear, differential and integral cryptanalysis are different facets of a single theory. I will introduce the basic principles of this point of view, and show how the choice of base field (complex or p-adic) and basis (diagonalizing an action) correspond to existing techniques. A few applications of this point of view will be given, starting with the analysis of invariants of cryptographic primitives and how they relate to (multiple) linear cryptanalysis. As a second application, I will discuss how the geometric approach leads to quasidifferential trails and how these can be used to avoid statistical independence assumptions in differential cryptanalysis. Finally, I will present preliminary results on an extension of integral cryptanalysis called ultrametric integral cryptanalysis.
   - title: Coffee Break
-    time: 10:00 AM - 10:30 AM
+    time: 10:00 AM – 10:30 AM
     location: ITC 307
   - title: Public-key cryptography 
-    time: 10:30 AM - 11:00 AM
+    time: 10:30 AM – 11:00 AM
     location: ITC 317
     talks: 
     - title: Generalized Implicit Factorization Problem
       authors: Yansong Feng, Abderrahmane Nitaj and Yanbin Pan
       preproceeding: preproceedings/8YansongFeng.pdf
   - title: Differential cryptanalysis
-    time: 11:00 AM - 12:30 PM
+    time: 11:00 AM – 12:30 PM
     location: ITC 317
     talks:
     - title: "CLAASP: a Cryptographic Library for the Automated Analysis of Symmetric Primitives"
