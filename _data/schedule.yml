@@ -86,9 +86,10 @@
     time: 8:30 AM - 9:15 AM
     subtitle: Pick up your badge
     location: ITC 307
-  - title: Opening Remarks by Dr. Benedicenti and Dr. Ghorbani
+  - title: Opening Remarks
     time: 9:15 AM - 9:25 AM
     location: ITC 317
+    subtitle: by Dr. Benedicenti and Dr. Ghorbani
   - title: Invited lecture - Hardware Security - Directions and Challenges
     time: 9:25 AM - 10:25 PM
     location: ITC 317
