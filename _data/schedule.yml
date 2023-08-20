@@ -10,7 +10,7 @@
     speaker: Adeline Roux-Langlois
     affiliation: CNRS, GREYC, France
     details: I will introduce lattices and hard problems over lattices, the LWE and SIS problems and explain how they are used to build encryption and signature schemes. Then I will introduce algebraic variants of LWE and SIS and how to build efficient constructions based on those variants.
-    # slides: slides/lattice.pdf
+    #slides: slides/lattice.pdf
   - title: Coffee Break
     time: 10:30 AM – 11:00 AM
     location: ITC 307
@@ -31,6 +31,7 @@
     speaker: David Jao
     affiliation: University of Waterloo, Canada
     details: 
+    slides: slides/Jao1.pdf
   - title: Coffee Break
     time: 2:45 PM – 3:15 PM
     location: ITC 307
@@ -41,6 +42,7 @@
     speaker: David Jao
     affiliation: University of Waterloo, Canada
     details:
+    slides: slides/Jao2.pdf
 - date: 2023-08-15
   sessions:
   - title: SAC Summer School - Linear and differential cryptanalysis, Part 1

@@ -11,6 +11,7 @@ iacr_in_cooperation_with: true
 proceedings_in_springer_lncs: true
 show_accepted_papers: true # set to false if you're not ready to display the accepted papers page yet
 show_preproceedings_links: true # set to false if you don't want to show links to preproceedings PDFs
+show_slidess_links: true # set to false if you don't want to show links to preproceedings PDFs
 show_registration: true # set to false if you're not ready to show the registration page yet
 show_schedule: true # set to false if you're not ready to display the schedule page yet
 show_sponsors: true # set to false if you're not ready to display any sponsors
