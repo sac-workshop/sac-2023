@@ -31,7 +31,7 @@
     speaker: David Jao
     affiliation: University of Waterloo, Canada
     details: 
-    slides: slides/Jao1.pdf
+    #slides: slides/Jao1.pdf
   - title: Coffee Break
     time: 2:45 PM – 3:15 PM
     location: ITC 307
