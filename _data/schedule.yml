@@ -52,7 +52,7 @@
     speaker: Tim Beyne
     affiliation: KU Leuven, Belgium
     details: "The first half will cover the basics of linear cryptanalysis: linear approximations, correlation matrices and their properties, linear trails, and some methods for key-recovery."
-    slides: slides/Beyne_s3.pdf
+    #slides: slides/Beyne_s3.pdf
   - title: Coffee Break
     time: 10:30 AM – 11:00 AM
     location: ITC 307
@@ -63,7 +63,7 @@
     speaker: Tim Beyne
     affiliation: KU Leuven, Belgium
     details: "The second half will introduce differential cryptanalysis: differentials, differential characteristics, quasidifferential transition matrices and trails, and key-recovery techniques."
-    slides: slides/Beyne_s3.pdf
+    #slides: slides/Beyne_s3.pdf
   - title: Lunch
     time: 12:15 PM – 1:15 PM
     location: ITC 307
