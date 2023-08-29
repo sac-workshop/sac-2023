@@ -42,7 +42,7 @@
     speaker: David Jao
     affiliation: University of Waterloo, Canada
     details:
-    slides: slides/Jao2.pdf
+    #slides: slides/Jao2.pdf
 - date: 2023-08-15
   sessions:
   - title: SAC Summer School - Linear and differential cryptanalysis, Part 1
