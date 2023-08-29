@@ -161,16 +161,13 @@
   - title: Reception
     time: 5:15 PM – 6:15 PM
     location: ITC 317
-    #subtitle: 'The conference “banquet” will be a barbecue in nearby Waterloo Park, on Wednesday August 14 from 6-8pm, at Picnic Shelter #20.'
-    #details: "<p>It is approximately a 20 minutes walk from the conference location.  A group will be walking over to the park, leaving from the Davis Centre (DC) 1301 room at 5:30.  If you have mobility requirements, please contact the conference chairs to make arrangements to get to the park.  The exact latitude and longitude of the picnic shelter is <a href='https://www.google.com/maps/place/43%C2%B027%2754.8%22N+80%C2%B032%2711.5%22W/@43.4652249,-80.5376283' target='_blank'>43.465222, -80.536528</a>.</p><p><img src='images/map.jpg' alt='Map to BBQ'></p><p>In the event of inclement weather, the barbecue will be relocated to our backup rain location, the Math 3 (M3) atrium, on campus. An announcement will be made during the day at the conference if we are relocating.</p>"
-
 - date: 2023-08-17
   sessions:
   - title: Stafford Tavares Invited Lecture - Robust and Non-malleable Threshold Schemes, AMD codes and External Difference Families
     time: 9:00 AM – 10:00 AM
     location: ITC 317
     speaker: Doug Stinson
-    details: We begin by reviewing the history of robust threshold schemes, which were introduced by Tampa and Woll in 1988. Various solutions over the years have used mathematical structures related to difference sets, including external difference families and algebraic manipulation detection codes. We present several constructions for these structures and discuss their application to robust threshold schemes. Finally, we present some recent (ongoing) work on non-malleable threshold schemes that employ a new variation of AMD codes, namely circular AMD codes. 
+    details: "We begin by reviewing the history of robust threshold schemes, which were introduced by Tampa and Woll in 1988. Various solutions over the years have used mathematical structures related to difference sets, including external difference families and algebraic manipulation detection codes. We present several constructions for these structures and discuss their application to robust threshold schemes. Finally, we present some recent (ongoing) work on non-malleable threshold schemes that employ a new variation of AMD codes, namely circular AMD codes." 
     #slides: slides/Stinson.pdf
   - title: Coffee Break
     time: 10:00 AM – 10:30 AM
@@ -235,7 +232,7 @@
     time: 9:00 AM – 10:00 AM
     location: ITC 317
     speaker: Tim Beyne
-    details: I will present recent results that show that linear, differential and integral cryptanalysis are different facets of a single theory. I will introduce the basic principles of this point of view, and show how the choice of base field (complex or p-adic) and basis (diagonalizing an action) correspond to existing techniques. A few applications of this point of view will be given, starting with the analysis of invariants of cryptographic primitives and how they relate to (multiple) linear cryptanalysis. As a second application, I will discuss how the geometric approach leads to quasidifferential trails and how these can be used to avoid statistical independence assumptions in differential cryptanalysis. Finally, I will present preliminary results on an extension of integral cryptanalysis called ultrametric integral cryptanalysis.
+    details: "I will present recent results that show that linear, differential and integral cryptanalysis are different facets of a single theory. I will introduce the basic principles of this point of view, and show how the choice of base field (complex or p-adic) and basis (diagonalizing an action) correspond to existing techniques. A few applications of this point of view will be given, starting with the analysis of invariants of cryptographic primitives and how they relate to (multiple) linear cryptanalysis. As a second application, I will discuss how the geometric approach leads to quasidifferential trails and how these can be used to avoid statistical independence assumptions in differential cryptanalysis. Finally, I will present preliminary results on an extension of integral cryptanalysis called ultrametric integral cryptanalysis."
     #slides: slides/Beyne.pdf
   - title: Coffee Break
     time: 10:00 AM – 10:30 AM
