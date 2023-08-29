@@ -171,7 +171,7 @@
     location: ITC 317
     speaker: Doug Stinson
     details: We begin by reviewing the history of robust threshold schemes, which were introduced by Tampa and Woll in 1988. Various solutions over the years have used mathematical structures related to difference sets, including external difference families and algebraic manipulation detection codes. We present several constructions for these structures and discuss their application to robust threshold schemes. Finally, we present some recent (ongoing) work on non-malleable threshold schemes that employ a new variation of AMD codes, namely circular AMD codes. 
-    slides: slides/Stinson.pdf
+    #slides: slides/Stinson.pdf
   - title: Coffee Break
     time: 10:00 AM – 10:30 AM
     location: ITC 307
@@ -236,7 +236,7 @@
     location: ITC 317
     speaker: Tim Beyne
     details: I will present recent results that show that linear, differential and integral cryptanalysis are different facets of a single theory. I will introduce the basic principles of this point of view, and show how the choice of base field (complex or p-adic) and basis (diagonalizing an action) correspond to existing techniques. A few applications of this point of view will be given, starting with the analysis of invariants of cryptographic primitives and how they relate to (multiple) linear cryptanalysis. As a second application, I will discuss how the geometric approach leads to quasidifferential trails and how these can be used to avoid statistical independence assumptions in differential cryptanalysis. Finally, I will present preliminary results on an extension of integral cryptanalysis called ultrametric integral cryptanalysis.
-    slides: slides/Beyne.pdf
+    #slides: slides/Beyne.pdf
   - title: Coffee Break
     time: 10:00 AM – 10:30 AM
     location: ITC 307
