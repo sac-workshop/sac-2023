@@ -115,11 +115,11 @@
       - title: "A Closer Look at the S-box: Deeper Analysis of Round-Reduced ASCON-HASH"
         authors: Xiaorui Yu, Fukang Liu, Gaoli Wang, Siwei Sun and Willi Meier
         preproceeding: preproceedings/15XiaoruiYu.pdf
-    	#slides: slides/Yu.pdf
+        #slides: slides/Yu.pdf
       - title: Improving the Rectangle Attack on GIFT-64
         authors: Yincen Chen, Nana Zhang, Xuanyu Liang, Ling Song, Qianqian Yang and Zhuohui Feng
         preproceeding: preproceedings/16YincenChen.pdf
-    	#slides: slides/Chen.pdf
+        #slides: slides/Chen.pdf
   - title: Lunch break
     time: 12:25 PM – 1:45 PM
     subtitle: Lunch is included
