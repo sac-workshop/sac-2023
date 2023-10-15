@@ -22,11 +22,11 @@ jobs:
     - name: Copy to sacworkshop.org using scp
       run: |
         scp \
-        -i github-sac-dsa \
-        -oHostKeyAlgorithms=ssh-dss \
-        -oPubkeyAcceptedAlgorithms=ssh-dss \
-        -oUserKnownHostsFile=known_hosts
-        -O \
-        -r \
-        ${{ github.workspace }}_site/* \
-        fimtfj2j0n6m@sacworkshop.org:public_html/SAC23
+          -i github-sac-dsa \
+          -oHostKeyAlgorithms=ssh-dss \
+          -oPubkeyAcceptedAlgorithms=ssh-dss \
+          -oUserKnownHostsFile=known_hosts
+          -O \
+          -r \
+          ${{ github.workspace }}_site/* \
+          fimtfj2j0n6m@sacworkshop.org:public_html/SAC23
