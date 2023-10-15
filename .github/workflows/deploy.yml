@@ -10,11 +10,16 @@ jobs:
     environment: sacworkshop.org
     steps:
     - uses: actions/checkout@v3
-    - name: Build the site using Jekyll in a container
-      run: |
-        docker run \
-        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+    # - name: Build the site using Jekyll in a container
+    #   run: |
+    #     docker run \
+    #     -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+    #     jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+    - name: Install Jekyll
+      run: gem install bundler jekyll
+    - name: Build the site using Jkeyll
+      working-directory: ${{ github.workspace }}
+      run: bundle exec jekyll build
     - name: Set up SSH private key
       run: echo "${SSH_PRIVATE_KEY}" > github-sac-dsa
     - name: Set up SSH known hosts
@@ -25,7 +30,7 @@ jobs:
           -i github-sac-dsa \
           -oHostKeyAlgorithms=ssh-dss \
           -oPubkeyAcceptedAlgorithms=ssh-dss \
-          -oUserKnownHostsFile=known_hosts
+          -oUserKnownHostsFile=known_hosts \
           -O \
           -r \
           ${{ github.workspace }}_site/* \
