@@ -1,0 +1,32 @@
+name: Deploy to sacworkshop.org
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  deployment:
+    runs-on: ubuntu-latest
+    environment: sacworkshop.org
+    steps:
+    - uses: actions/checkout@v3
+    - name: Build the site using Jekyll in a container
+      run: |
+        docker run \
+        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+        jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+    - name: Set up SSH private key
+      run: echo "${SSH_PRIVATE_KEY}" > github-sac-dsa
+    - name: Set up SSH known hosts
+      run: echo "${SSH_HOST_FINGERPRINT}" > known_hosts
+    - name: Copy to sacworkshop.org using scp
+      run: |
+        scp \
+        -i github-sac-dsa \
+        -oHostKeyAlgorithms=ssh-dss \
+        -oPubkeyAcceptedAlgorithms=ssh-dss \
+        -oUserKnownHostsFile=known_hosts
+        -O \
+        -r \
+        ${{ github.workspace }}_site/* \
+        fimtfj2j0n6m@sacworkshop.org:public_html/SAC23
