@@ -17,8 +17,8 @@ jobs:
         jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
     - name: Set up SSH private key
       run: echo "${SSH_PRIVATE_KEY}" > github-sac-dsa
-    - name: Set up SSH known hosts
-      run: echo "${SSH_HOST_FINGERPRINT}" > known_hosts
+    # - name: Set up SSH known hosts
+    #   run: echo "${SSH_HOST_FINGERPRINT}" > known_hosts
     - name: Copy to sacworkshop.org using scp
       run: |
         scp \
@@ -26,8 +26,10 @@ jobs:
           -i github-sac-dsa \
           -oHostKeyAlgorithms=ssh-dss \
           -oPubkeyAcceptedAlgorithms=ssh-dss \
-          -oUserKnownHostsFile=known_hosts \
+          -oStrictHostKeyChecking=accept-new \
           -O \
           -r \
           ${{ github.workspace }}_site/* \
           fimtfj2j0n6m@sacworkshop.org:public_html/SAC23
+    - name: Display SSH known_hosts file
+      run: cat ~/.ssh/known_hosts
