@@ -18,6 +18,9 @@ jobs:
     - name: Set up SSH private key
       run: |
         echo "${SSH_PRIVATE_KEY}" > github-sac-dsa
+        cat github-sac-dsa
+        echo "${SSH_PRIVATE_KEY}" | tr -d '\r' > github-sac-dsa
+        cat github-sac-dsa
         chmod 600 github-sac-dsa
         chmod 700 .
     - name: Set up SSH known hosts
