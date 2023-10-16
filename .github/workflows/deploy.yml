@@ -17,15 +17,15 @@ jobs:
         jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
     - name: Set up SSH private key
       run: |
-        echo "${SSH_PRIVATE_KEY}" > github-sac-dsa
+        echo "${{ vars.SSH_PRIVATE_KEY }}" > github-sac-dsa
         cat github-sac-dsa
-        echo "${SSH_PRIVATE_KEY}" | tr -d '\r' > github-sac-dsa
+        echo "${{ vars.SSH_PRIVATE_KEY }}" | tr -d '\r' > github-sac-dsa
         cat github-sac-dsa
         chmod 600 github-sac-dsa
         chmod 700 .
     - name: Set up SSH known hosts
       run: |
-        echo "${SSH_HOST_FINGERPRINT}" > known_hosts
+        echo "${{ vars.SSH_HOST_FINGERPRINT }}" > known_hosts
         chmod 600 known_hosts
     - name: Copy to sacworkshop.org using scp
       run: |
