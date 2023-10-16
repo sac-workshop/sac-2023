@@ -31,10 +31,10 @@ jobs:
           -i github-sac-dsa \
           -oHostKeyAlgorithms=ssh-dss \
           -oPubkeyAcceptedAlgorithms=ssh-dss \
-          -oStrictHostKeyChecking=accept-new \
+          -oUserKnownHostsFile=known_hosts \
           -O \
           -r \
-          ${{ github.workspace }}_site/* \
+          ${{ github.workspace }}/_site/* \
           fimtfj2j0n6m@sacworkshop.org:public_html/SAC23
     - name: Display SSH known_hosts file
       run: cat ~/.ssh/known_hosts
