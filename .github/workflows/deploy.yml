@@ -17,10 +17,7 @@ jobs:
         jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
     - name: Set up SSH private key
       run: |
-        echo "${{ vars.SSH_PRIVATE_KEY }}" > github-sac-dsa
-        cat github-sac-dsa
-        echo "${{ vars.SSH_PRIVATE_KEY }}" | tr -d '\r' > github-sac-dsa
-        cat github-sac-dsa
+        echo "${{ secrets.SSH_PRIVATE_KEY }}" > github-sac-dsa
         chmod 600 github-sac-dsa
         chmod 700 .
     - name: Set up SSH known hosts
