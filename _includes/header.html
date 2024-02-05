@@ -114,6 +114,11 @@ h1, h2, h3, h4, h5, h6 {
             {% endif %}
           </li>
           {% endif %}
+          {% if site.data.variables.show_proceedings_link %}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ site.data.variables.proceedings_url }}" target="_blank">Proceedings</a>
+          </li>
+          {% endif %}
           {% if site.data.variables.show_schedule %}
           <li class="nav-item">
             {% if page.name == 'schedule.html' %}<span class="btn btn-info fw-bold">Schedule</span>
