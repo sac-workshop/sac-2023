@@ -3,20 +3,181 @@ layout: default
 title: Schedule
 ---
 
+<script src="js/sherlock.js"></script>
+
+<script>
+/*
+ * Date Format 1.2.3
+ * (c) 2007-2009 Steven Levithan <stevenlevithan.com>
+ * MIT license
+ *
+ * Includes enhancements by Scott Trenda <scott.trenda.net>
+ * and Kris Kowal <cixar.com/~kris.kowal/>
+ *
+ * Accepts a date, a mask, or a date and a mask.
+ * Returns a formatted version of the given date.
+ * The date defaults to the current date/time.
+ * The mask defaults to dateFormat.masks.default.
+ */
+
+var dateFormat = function () {
+	var	token = /d{1,4}|m{1,4}|yy(?:yy)?|([HhMsTt])\1?|[LloSZ]|"[^"]*"|'[^']*'/g,
+		timezone = /\b(?:[PMCEA][SDP]T|(?:Pacific|Mountain|Central|Eastern|Atlantic) (?:Standard|Daylight|Prevailing) Time|(?:GMT|UTC)(?:[-+]\d{4})?)\b/g,
+		timezoneClip = /[^-+\dA-Z]/g,
+		pad = function (val, len) {
+			val = String(val);
+			len = len || 2;
+			while (val.length < len) val = "0" + val;
+			return val;
+		};
+
+	// Regexes and supporting functions are cached through closure
+	return function (date, mask, utc) {
+		var dF = dateFormat;
+
+		// You can't provide utc if you skip other args (use the "UTC:" mask prefix)
+		if (arguments.length == 1 && Object.prototype.toString.call(date) == "[object String]" && !/\d/.test(date)) {
+			mask = date;
+			date = undefined;
+		}
+
+		// Passing date through Date applies Date.parse, if necessary
+		date = date ? new Date(date) : new Date;
+		if (isNaN(date)) throw SyntaxError("invalid date");
+
+		mask = String(dF.masks[mask] || mask || dF.masks["default"]);
+
+		// Allow setting the utc argument via the mask
+		if (mask.slice(0, 4) == "UTC:") {
+			mask = mask.slice(4);
+			utc = true;
+		}
+
+		var	_ = utc ? "getUTC" : "get",
+			d = date[_ + "Date"](),
+			D = date[_ + "Day"](),
+			m = date[_ + "Month"](),
+			y = date[_ + "FullYear"](),
+			H = date[_ + "Hours"](),
+			M = date[_ + "Minutes"](),
+			s = date[_ + "Seconds"](),
+			L = date[_ + "Milliseconds"](),
+			o = utc ? 0 : date.getTimezoneOffset(),
+			flags = {
+				d:    d,
+				dd:   pad(d),
+				ddd:  dF.i18n.dayNames[D],
+				dddd: dF.i18n.dayNames[D + 7],
+				m:    m + 1,
+				mm:   pad(m + 1),
+				mmm:  dF.i18n.monthNames[m],
+				mmmm: dF.i18n.monthNames[m + 12],
+				yy:   String(y).slice(2),
+				yyyy: y,
+				h:    H % 12 || 12,
+				hh:   pad(H % 12 || 12),
+				H:    H,
+				HH:   pad(H),
+				M:    M,
+				MM:   pad(M),
+				s:    s,
+				ss:   pad(s),
+				l:    pad(L, 3),
+				L:    pad(L > 99 ? Math.round(L / 10) : L),
+				t:    H < 12 ? "a"  : "p",
+				tt:   H < 12 ? "am" : "pm",
+				T:    H < 12 ? "A"  : "P",
+				TT:   H < 12 ? "AM" : "PM",
+				Z:    utc ? "UTC" : (String(date).match(timezone) || [""]).pop().replace(timezoneClip, ""),
+				o:    (o > 0 ? "-" : "+") + pad(Math.floor(Math.abs(o) / 60) * 100 + Math.abs(o) % 60, 4),
+				S:    ["th", "st", "nd", "rd"][d % 10 > 3 ? 0 : (d % 100 - d % 10 != 10) * d % 10]
+			};
+
+		return mask.replace(token, function ($0) {
+			return $0 in flags ? flags[$0] : $0.slice(1, $0.length - 1);
+		});
+	};
+}();
+
+// Some common format strings
+dateFormat.masks = {
+	"default":      "ddd mmm dd yyyy HH:MM:ss",
+	shortDate:      "m/d/yy",
+	mediumDate:     "mmm d, yyyy",
+	longDate:       "mmmm d, yyyy",
+	fullDate:       "dddd, mmmm d, yyyy",
+	shortTime:      "h:MM TT",
+	mediumTime:     "h:MM:ss TT",
+	longTime:       "h:MM:ss TT Z",
+	isoDate:        "yyyy-mm-dd",
+	isoTime:        "HH:MM:ss",
+	isoDateTime:    "yyyy-mm-dd'T'HH:MM:ss",
+	isoUtcDateTime: "UTC:yyyy-mm-dd'T'HH:MM:ss'Z'"
+};
+
+// Internationalization strings
+dateFormat.i18n = {
+	dayNames: [
+		"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat",
+		"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
+	],
+	monthNames: [
+		"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec",
+		"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"
+	]
+};
+
+// For convenience...
+Date.prototype.format = function (mask, utc) {
+	return dateFormat(this, mask, utc);
+};
+
+function isInTimeWindow(d, windowDate, windowTimeFrame) {
+  var windowTimeFrameFixed = windowDate + " " + windowTimeFrame.replace("–", "-");
+  sherlocked = Sherlock.parse(windowTimeFrameFixed);
+  return ((d >= sherlocked.startDate) && (d < sherlocked.endDate));
+}
+
+window.addEventListener('load', function() {
+  d = new Date();
+  s = dateFormat(d, "yyyy-mm-dd");
+  {% for day in site.data.schedule %}
+  if ('{{ day.date }}' == s) {
+    if (false) {
+    {% for session in day.sessions %}
+    } else if (isInTimeWindow(d, "{{ day.date }}", "{{ session.time }}")) {
+      document.getElementById("{{ day.date | append: session.time | slugify }}").scrollIntoView();
+    {% endfor %}  
+    } else {
+      document.getElementById("{{ day.date }}").scrollIntoView();
+    }
+  }
+  {% endfor %}
+  const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+  const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+})
+</script>
+
 <h1>Schedule</h1>
 
 {% if site.data.variables.show_schedule %}
 
 {% for day in site.data.schedule %}
 
-<a name="{{ day.date }}"></a>
+<a name="{{ day.date }}" id="{{ day.date }}"></a>
 
-<nav class="navbar navbar-light bg-light d-print-none">
+<nav class="navbar sticky-top navbar-light navbar-expand bg-light d-print-none">
   <div class="container">
     <div class="container-fluid">
-      <ul class="nav fw-bold justify-content-center text-uppercase">
+      <ul class="navbar-nav fw-bold justify-content-center text-uppercase">
+      <!-- <ul class="nav fw-bold justify-content-center text-uppercase"> -->
         {% for dayinner in site.data.schedule %}
-        <li class="nav-item">
+          <li class="nav-item d-inline d-sm-none">
+            {% if day.date == dayinner.date %}<span class="btn btn-secondary fw-bold">{{ dayinner.date|date:"%A"|truncate: 3, "" }}</span>
+            {% else %}<a class="nav-link" href="#{{ dayinner.date }}">{{ dayinner.date|date:"%A"|truncate: 3, "" }}</a>
+            {% endif %}
+          </li>
+          <li class="nav-item d-none d-sm-inline">
             {% if day.date == dayinner.date %}<span class="btn btn-secondary fw-bold">{{ dayinner.date|date:"%A" }}</span>
             {% else %}<a class="nav-link" href="#{{ dayinner.date }}">{{ dayinner.date|date:"%A" }}</a>
             {% endif %}
@@ -31,13 +192,17 @@ title: Schedule
 
 {% for session in day.sessions %}
 
-<div class="row">
+<div class="row" id="{{ day.date | append: session.time | slugify }}">
   <div class="col-3">
     <span class="text-uppercase text-muted">{{ day.date|date:"%a %b %e" }}</span><br>
     <b>{{ session.time }}</b>
     {% if session.location %}
       <br>
       {{ session.location }}
+    {% endif %}
+    {% if session.session-chair %}
+      <br>
+      Session chair: {{ session.session-chair }}
     {% endif %}
   </div>
   <div class="col-9">
@@ -49,19 +214,51 @@ title: Schedule
     {% if session.details %}
       <div class="text-muted">{{ session.details }}</div>
     {% endif %}
-    {% if session.slides %}
-    <ul><li><a href="{{ session.slides }}">Slides</a></li></ul>
+    {% if site.data.variables.show_slides_links and session.slides %}
+      <div class="mt-3">
+        <a class="btn btn-outline-primary btn-sm d-print-none" href="{{ session.slides }}">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-easel" viewBox="0 0 16 16">
+          <path d="M8 0a.5.5 0 0 1 .473.337L9.046 2H14a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1h-1.85l1.323 3.837a.5.5 0 1 1-.946.326L11.092 11H8.5v3a.5.5 0 0 1-1 0v-3H4.908l-1.435 4.163a.5.5 0 1 1-.946-.326L3.85 11H2a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h4.954L7.527.337A.5.5 0 0 1 8 0M2 3v7h12V3z"/>
+        </svg>
+        <span class="ms-1">Slides</span>
+        </a>
+      </div>
     {% endif %}
-{% if session.talks %}
+    {% if session.talks %}
       {% for talk in session.talks %}
         <p>
           <b>{{ talk.title }}</b><br>
-          <span class="text-muted">by {{ talk.authors }}</span>
+          <span class="text-muted me-3">by {{ talk.authors }}</span>
           {% if site.data.variables.show_preproceedings_links and talk.preproceeding %}
-          • <a href="{{ talk.preproceeding }}">pre-proceeding version (PDF)</a>
+          <br />
+          {% elsif site.data.variables.show_proceedings_link and talk.doi %}
+          <br />
+          {% elsif site.data.variables.show_slides_links and talk.slides %}
+          <br />
           {% endif %}
-          {% if talk.slides %}
-          • <a href="{{ talk.slides }}">slides</a>
+          {% if site.data.variables.show_preproceedings_links and talk.preproceeding %}
+          <a class="btn btn-outline-primary btn-sm d-print-none talk-btn" href="{{ talk.preproceeding }}" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Pre-proceeding version">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-text" viewBox="0 0 16 16">
+              <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5"/>
+              <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z"/>
+            </svg>
+          </a>
+          {% endif %}
+          {% if site.data.variables.show_proceedings_link and talk.doi %}
+          <a class="btn btn-outline-primary btn-sm d-print-none talk-btn" href="https://doi.org/{{ talk.doi }}" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Published version">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-journal-text" viewBox="0 0 16 16">
+            <path d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5"/>
+            <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2"/>
+            <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z"/>
+            </svg>
+          </a>
+          {% endif %}
+          {% if site.data.variables.show_slides_links and talk.slides %}
+          <a class="btn btn-outline-primary btn-sm d-print-none talk-btn" href="{{ talk.slides }}" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Slides">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-easel" viewBox="0 0 16 16">
+              <path d="M8 0a.5.5 0 0 1 .473.337L9.046 2H14a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1h-1.85l1.323 3.837a.5.5 0 1 1-.946.326L11.092 11H8.5v3a.5.5 0 0 1-1 0v-3H4.908l-1.435 4.163a.5.5 0 1 1-.946-.326L3.85 11H2a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h4.954L7.527.337A.5.5 0 0 1 8 0M2 3v7h12V3z"/>
+            </svg>
+          </a>
           {% endif %}
         </p>
       {% endfor %}
