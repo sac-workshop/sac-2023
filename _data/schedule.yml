@@ -52,7 +52,7 @@
     speaker: Tim Beyne
     affiliation: KU Leuven, Belgium
     details: "The first half will cover the basics of linear cryptanalysis: linear approximations, correlation matrices and their properties, linear trails, and some methods for key-recovery."
-    #slides: slides/Beyne_s3.pdf
+    slides: slides/Beyne_s3.pdf
   - title: Coffee Break
     time: 10:30 AM – 11:00 AM
     location: ITC 307
@@ -63,7 +63,7 @@
     speaker: Tim Beyne
     affiliation: KU Leuven, Belgium
     details: "The second half will introduce differential cryptanalysis: differentials, differential characteristics, quasidifferential transition matrices and trails, and key-recovery techniques."
-    #slides: slides/Beyne_s3.pdf
+    slides: slides/Beyne_s3.pdf
   - title: Lunch
     time: 12:15 PM – 1:15 PM
     location: ITC 307
@@ -102,6 +102,7 @@
     affiliation: "Ruhr-Universität Bochum"
     details: 
     location: ITC 317
+    slides: slides/Guneysu.pdf
   - title: Coffee Break
     time: 10:25 AM – 10:55 AM
     location: ITC 307
@@ -112,14 +113,17 @@
       - title: "More Balanced Polynomials: Cube Attacks on 810- and 825- Round of Trivium with Practical Complexity"
         authors: Hao Lei, Jiahui He, Kai Hu and Meiqin Wang
         preproceeding: preproceedings/10HaoLei.pdf
+        doi: 10.1007/978-3-031-53368-6_1
       - title: "A Closer Look at the S-box: Deeper Analysis of Round-Reduced ASCON-HASH"
         authors: Xiaorui Yu, Fukang Liu, Gaoli Wang, Siwei Sun and Willi Meier
         preproceeding: preproceedings/15XiaoruiYu.pdf
-        #slides: slides/Yu.pdf
+        slides: slides/Yu.pdf
+        doi: 10.1007/978-3-031-53368-6_2
       - title: Improving the Rectangle Attack on GIFT-64
         authors: Yincen Chen, Nana Zhang, Xuanyu Liang, Ling Song, Qianqian Yang and Zhuohui Feng
         preproceeding: preproceedings/16YincenChen.pdf
-        #slides: slides/Chen.pdf
+        slides: slides/Chen.pdf
+        doi: 10.1007/978-3-031-53368-6_3
   - title: Lunch break
     time: 12:25 PM – 1:45 PM
     subtitle: Lunch is included
@@ -131,14 +135,17 @@
     - title: "Mask Compression: High-Order Masking on Memory-Constrained Devices"
       authors: "Markku-Juhani Saarinen and Mélissa Rossi "
       preproceeding: preproceedings/2Markku-JuhaniSaarinen.pdf
-      #slides: slides/Saarinen.pdf
+      slides: slides/Saarinen.pdf
+      doi: 10.1007/978-3-031-53368-6_4
     - title: "Not so Difficult in the End: Breaking the Lookup Table-based Affine Masking Scheme"
       authors: Lichao Wu, Guilherme Perin and Stjepan Picek
       preproceeding: preproceedings/7LichaoWu.pdf
+      doi: 10.1007/978-3-031-53368-6_5
     - title: Threshold Implementations with Non-Uniform Inputs
       authors: Siemen Dhooghe and Artemii Ovchinnikov
       preproceeding: preproceedings/13SiemenDhooghe.pdf
-      #slides: slides/Dhooghe_Ovchinnikov.pdf
+      slides: slides/Dhooghe_Ovchinnikov.pdf
+      doi: 10.1007/978-3-031-53368-6_6
   - title: Coffee Break
     time: 3:15 PM – 3:45 PM
     location: ITC 307
@@ -149,15 +156,18 @@
     - title: "SMAUG: Pushing Lattice-based Key Encapsulation Mechanisms to the Limits"
       authors: Jung Hee Cheon, Hyeongmin Choe, Dongyeon Hong and MinJune Yi
       preproceeding: preproceedings/3JungHeeCheon.pdf
-      #slides: slides/Cheon.pdf
-    - title: A Post-Quantum Round-Optimal Oblivious PRF from Isogenies 
+      slides: slides/Cheon.pdf
+      doi: 10.1007/978-3-031-53368-6_7
+    - title: A Post-Quantum Round-Optimal Oblivious PRF from Isogenies
       authors: Andrea Basso
       preproceeding: preproceedings/4AndreaBasso.pdf
-      #slides: slides/Basso.pdf
+      slides: slides/Basso.pdf
+      doi: 10.1007/978-3-031-53368-6_8
     - title: "Traceable Ring Signatures from Group Actions: Logarithmic, Flexible, and Quantum Resistant"
       authors: Wei Wei, Min Luo, Zijian Bao, Cong Peng and Debiao He
       preproceeding: preproceedings/19WeiWei.pdf
-      #slides: slides/Wei.pptx
+      slides: slides/Wei.pdf
+      doi: 10.1007/978-3-031-53368-6_9
   - title: Reception
     time: 5:15 PM – 6:15 PM
     location: ITC 317
@@ -168,7 +178,7 @@
     location: ITC 317
     speaker: Doug Stinson
     details: "We begin by reviewing the history of robust threshold schemes, which were introduced by Tampa and Woll in 1988. Various solutions over the years have used mathematical structures related to difference sets, including external difference families and algebraic manipulation detection codes. We present several constructions for these structures and discuss their application to robust threshold schemes. Finally, we present some recent (ongoing) work on non-malleable threshold schemes that employ a new variation of AMD codes, namely circular AMD codes." 
-    #slides: slides/Stinson.pdf
+    slides: slides/Stinson.pdf
   - title: Coffee Break
     time: 10:00 AM – 10:30 AM
     location: ITC 307
@@ -179,15 +189,17 @@
     - title: The Random Fault Model
       authors: Siemen Dhooghe and Svetla Nikova
       preproceeding: preproceedings/6SiemenDhooghe.pdf
-      #slides: slides/Dhooghe.pdf
-    - title: Probabilistic Related-Key Statistical Saturation Cryptanalysis 
+      slides: slides/Dhooghe.pdf
+      doi: 10.1007/978-3-031-53368-6_10
+    - title: Probabilistic Related-Key Statistical Saturation Cryptanalysis
       authors: Muzhou Li, Nicky Mouha, Ling Sun and Meiqin Wang
       preproceeding: preproceedings/11MuzhouLi.pdf
-      #slides: slides/.pdf
+      doi: 10.1007/978-3-031-53368-6_11
     - title: Compactly Committing Authenticated Encryption Using Encryptment and Tweakable Block Cipher
       authors: Shoichi Hirose and Kazuhiko Minematsu
       preproceeding: preproceedings/20ShoichiHirose.pdf
-      #slides: slides/Hirose.pdf
+      slides: slides/Hirose.pdf
+      doi: 10.1007/978-3-031-53368-6_12
   - title: Lunch break
     time: 12:00 PM – 2:00 PM
     subtitle: Lunch is included
@@ -195,18 +207,20 @@
     time: 2:00 PM – 3:30 PM
     location: ITC 317
     talks: 
-    - title: Bit Security Analysis of Lattice-Based KEMs under Plaintext-Checking Attacks  
+    - title: Bit Security Analysis of Lattice-Based KEMs under Plaintext-Checking Attacks
       authors: Ruiqi Mi, Haodong Jiang and Zhenfeng Zhang
       preproceeding: preproceedings/14RuiqiMi.pdf
-      #slides: slides/.pdf
+      doi: 10.1007/978-3-031-53368-6_13
     - title: "Quantum Cryptanalysis of OTR and OPP: Attacks on Confidentiality, and Key-Recovery"
       authors: Melanie Jauch and Varun Maram
       preproceeding: preproceedings/18MelanieJauch.pdf
-      #slides: slides/Jauch.pptx
+      slides: slides/Jauch.pdf
+      doi: 10.1007/978-3-031-53368-6_14
     - title: Fast and Efficient Hardware Implementation of HQC
       authors: Sanjay Deshpande, Chuanqi Xu, Mamuri Nawan, Kashif Nawaz and Jakub Szefer
       preproceeding: preproceedings/12SanjayDeshpande.pdf
-      #slides: slides/Deshpande.pptx
+      slides: slides/Deshpande.pdf
+      doi: 10.1007/978-3-031-53368-6_15
   - title: Coffee Break
     time: 3:30 PM – 4:00 PM
     location: ITC 307
@@ -217,11 +231,13 @@
     - title: On the Precision Loss in Approximate Homomorphic Encryption
       authors: Anamaria Costache, Benjamin Curtis, Erin Hales, Sean Murphy, Tabitha Ogilvie and Rachel Player
       preproceeding: preproceedings/9AnamariaCostache.pdf
-      #slides: slides/Costache.pdf
+      slides: slides/Costache.pdf
+      doi: 10.1007/978-3-031-53368-6_16
     - title: Secure Function Extensions to Additively Homomorphic Cryptosystems
-      authors: Mounika Pratapa and Aleksander Essex 
+      authors: Mounika Pratapa and Aleksander Essex
       preproceeding: preproceedings/17MounikaPratapa.pdf
-      #slides: slides/Pratapa.pdf
+      slides: slides/Pratapa.pdf
+      doi: 10.1007/978-3-031-53368-6_17
   - title: Banquet at the Wu Conference Centre
     time: 6:00 PM – 9:00 PM
     location: 
@@ -233,7 +249,7 @@
     location: ITC 317
     speaker: Tim Beyne
     details: "I will present recent results that show that linear, differential and integral cryptanalysis are different facets of a single theory. I will introduce the basic principles of this point of view, and show how the choice of base field (complex or p-adic) and basis (diagonalizing an action) correspond to existing techniques. A few applications of this point of view will be given, starting with the analysis of invariants of cryptographic primitives and how they relate to (multiple) linear cryptanalysis. As a second application, I will discuss how the geometric approach leads to quasidifferential trails and how these can be used to avoid statistical independence assumptions in differential cryptanalysis. Finally, I will present preliminary results on an extension of integral cryptanalysis called ultrametric integral cryptanalysis."
-    #slides: slides/Beyne.pdf
+    slides: slides/Beyne.pdf
   - title: Coffee Break
     time: 10:00 AM – 10:30 AM
     location: ITC 307
@@ -244,7 +260,8 @@
     - title: Generalized Implicit Factorization Problem
       authors: Yansong Feng, Abderrahmane Nitaj and Yanbin Pan
       preproceeding: preproceedings/8YansongFeng.pdf
-      #slides: slides/Feng.pdf
+      slides: slides/Feng.pdf
+      doi: 10.1007/978-3-031-53368-6_18
   - title: Differential cryptanalysis
     time: 11:00 AM – 12:30 PM
     location: ITC 317
@@ -252,12 +269,15 @@
     - title: "CLAASP: a Cryptographic Library for the Automated Analysis of Symmetric Primitives"
       authors: Emanuele Bellini, David Gerault, Juan Grados, Yun Ju Huang, Rusydi Makarim, Mohamed Rachidi and Sharwan Tiwari
       preproceeding: preproceedings/1EmanueleBellini.pdf
-      #slides: slides/Bellini.pdf
+      slides: slides/Bellini.pdf
+      doi: 10.1007/978-3-031-53368-6_19
     - title: Parallel SAT Framework to Find Clustering of Differential Characteristics and Its Applications
       authors: Kosei Sakamoto, Ryoma Ito and Takanori Isobe
       preproceeding: preproceedings/5KoseiSakamoto.pdf
-      #slides: slides/Sakamoto.pdf
+      slides: slides/Sakamoto.pdf
+      doi: 10.1007/978-3-031-53368-6_20
     - title: "Deep Learning-Based Rotational-XOR Distinguishers for AND-RX Block Ciphers: Evaluations on Simeck and Simon"
-      authors: Amirhossein Ebrahimi Moghaddam, David Gerault and Paolo Palmieri 
+      authors: Amirhossein Ebrahimi Moghaddam, David Gerault and Paolo Palmieri
       preproceeding: preproceedings/21AmirhosseinEbrahimi.pdf
-      #slides: slides/Ebrahimi.pptx
+      slides: slides/Ebrahimi.pdf
+      doi: 10.1007/978-3-031-53368-6_21
