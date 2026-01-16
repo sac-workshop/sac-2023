@@ -13,7 +13,7 @@ show_accepted_papers: true # set to false if you're not ready to display the acc
 show_preproceedings_links: true # set to false if you don't want to show links to preproceedings PDFs
 show_proceedings_link: true # set to false if you don't want to show the link to the proceedings in the top menu
 proceedings_url: https://link.springer.com/book/9783031533679
-show_slidess_links: true # set to false if you don't want to show links to preproceedings PDFs
+show_slides_links: true # set to false if you don't want to show links to preproceedings PDFs
 show_registration: true # set to false if you're not ready to show the registration page yet
 show_schedule: true # set to false if you're not ready to display the schedule page yet
 show_sponsors: true # set to false if you're not ready to display any sponsors
