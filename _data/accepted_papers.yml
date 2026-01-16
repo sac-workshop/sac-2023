@@ -2,79 +2,100 @@
   authors: Emanuele Bellini, David Gerault, Juan Grados, Yun Ju Huang, Rusydi Makarim, Mohamed Rachidi and Sharwan Tiwari
   preproceeding: preproceedings/1EmanueleBellini.pdf
   slides: slides/Bellini.pdf
+  doi: 10.1007/978-3-031-53368-6_19
 - title: "Mask Compression: High-Order Masking on Memory-Constrained Devices"
   authors: Markku-Juhani Saarinen and Mélissa Rossi
   preproceeding: preproceedings/2Markku-JuhaniSaarinen.pdf
   slides: slides/Saarinen.pdf
+  doi: 10.1007/978-3-031-53368-6_4
 - title: "SMAUG: Pushing Lattice-based Key Encapsulation Mechanisms to the Limits"
   authors: Jung Hee Cheon, Hyeongmin Choe, Dongyeon Hong and MinJune Yi
   preproceeding: preproceedings/3JungHeeCheon.pdf
   slides: slides/Cheon.pdf
+  doi: 10.1007/978-3-031-53368-6_7
 - title: A Post-Quantum Round-Optimal Oblivious PRF from Isogenies
   authors: Andrea Basso
   preproceeding: preproceedings/4AndreaBasso.pdf
   slides: slides/Basso.pdf
+  doi: 10.1007/978-3-031-53368-6_8
 - title: Parallel SAT Framework to Find Clustering of Differential Characteristics and Its Applications
   authors: Kosei Sakamoto, Ryoma Ito and Takanori Isobe
   preproceeding: preproceedings/5KoseiSakamoto.pdf
   slides: slides/Sakamoto.pdf
+  doi: 10.1007/978-3-031-53368-6_20
 - title: The Random Fault Model
   authors: Siemen Dhooghe and Svetla Nikova
   preproceeding: preproceedings/6SiemenDhooghe.pdf
   slides: slides/Dhooghe.pdf
+  doi: 10.1007/978-3-031-53368-6_10
 - title: "Not so Difficult in the End: Breaking the Lookup Table-based Affine Masking Scheme"
   authors: Lichao Wu, Guilherme Perin and Stjepan Picek
   preproceeding: preproceedings/7LichaoWu.pdf
+  doi: 10.1007/978-3-031-53368-6_5
 - title: Generalized Implicit Factorization Problem
   authors: Yansong Feng, Abderrahmane Nitaj and Yanbin Pan
   preproceeding: preproceedings/8YansongFeng.pdf
   slides: slides/Feng.pdf
+  doi: 10.1007/978-3-031-53368-6_18
 - title:  On the Precision Loss in Approximate Homomorphic Encryption
   authors: Anamaria Costache, Benjamin Curtis, Erin Hales, Sean Murphy, Tabitha Ogilvie and Rachel Player
   preproceeding: preproceedings/9AnamariaCostache.pdf
   slides: slides/Costache.pdf
+  doi: 10.1007/978-3-031-53368-6_16
 - title: "More Balanced Polynomials: Cube Attacks on 810- and 825- Round of Trivium with Practical Complexity"
   authors: Hao Lei, Jiahui He, Kai Hu and Meiqin Wang
   preproceeding: preproceedings/10HaoLei.pdf
-- title: Probabilistic Related-Key Statistical Saturation Cryptanalysis 
+  doi: 10.1007/978-3-031-53368-6_1
+- title: Probabilistic Related-Key Statistical Saturation Cryptanalysis
   authors: Muzhou Li, Nicky Mouha, Ling Sun and Meiqin Wang
   preproceeding: preproceedings/11MuzhouLi.pdf
+  doi: 10.1007/978-3-031-53368-6_11
 - title: Fast and Efficient Hardware Implementation of HQC
   authors: Sanjay Deshpande, Chuanqi Xu, Mamuri Nawan, Kashif Nawaz and Jakub Szefer
   preproceeding: preproceedings/12SanjayDeshpande.pdf
   slides: slides/Deshpande.pdf
+  doi: 10.1007/978-3-031-53368-6_15
 - title: Threshold Implementations with Non-Uniform Inputs
   authors: Siemen Dhooghe and Artemii Ovchinnikov
   preproceeding: preproceedings/13SiemenDhooghe.pdf
   slides: slides/Dhooghe_Ovchinnikov.pdf
+  doi: 10.1007/978-3-031-53368-6_6
 - title: Bit Security Analysis of Lattice-Based KEMs under Plaintext-Checking Attacks
   authors: Ruiqi Mi, Haodong Jiang and Zhenfeng Zhang
   preproceeding: preproceedings/14RuiqiMi.pdf
+  doi: 10.1007/978-3-031-53368-6_13
 - title: "A Closer Look at the S-box: Deeper Analysis of Round-Reduced ASCON-HASH"
   authors: Xiaorui Yu, Fukang Liu, Gaoli Wang, Siwei Sun and Willi Meier
   preproceeding: preproceedings/15XiaoruiYu.pdf
   slides: slides/Yu.pdf
+  doi: 10.1007/978-3-031-53368-6_2
 - title: Improving the Rectangle Attack on GIFT-64
   authors: Yincen Chen, Nana Zhang, Xuanyu Liang, Ling Song, Qianqian Yang and Zhuohui Feng
   preproceeding: preproceedings/16YincenChen.pdf
   slides: slides/Chen.pdf
+  doi: 10.1007/978-3-031-53368-6_3
 - title: Secure Function Extensions to Additively Homomorphic Cryptosystems
   authors: Mounika Pratapa and Aleksander Essex
   preproceeding: preproceedings/17MounikaPratapa.pdf
   slides: slides/Pratapa.pdf
+  doi: 10.1007/978-3-031-53368-6_17
 - title: "Quantum Cryptanalysis of OTR and OPP: Attacks on Confidentiality, and Key-Recovery"
   authors: Melanie Jauch and Varun Maram
   preproceeding: preproceedings/18MelanieJauch.pdf
   slides: slides/Jauch.pdf
+  doi: 10.1007/978-3-031-53368-6_14
 - title: "Traceable Ring Signatures from Group Actions: Logarithmic, Flexible, and Quantum Resistant"
   authors: Wei Wei, Min Luo, Zijian Bao, Cong Peng and Debiao He
   preproceeding: preproceedings/19WeiWei.pdf
   slides: slides/Wei.pdf
+  doi: 10.1007/978-3-031-53368-6_9
 - title: Compactly Committing Authenticated Encryption Using Encryptment and Tweakable Block Cipher
   authors: Shoichi Hirose and Kazuhiko Minematsu
   preproceeding: preproceedings/20ShoichiHirose.pdf
   slides: slides/Hirose.pdf
+  doi: 10.1007/978-3-031-53368-6_12
 - title: "Deep Learning-Based Rotational-XOR Distinguishers for AND-RX Block Ciphers: Evaluations on Simeck and Simon"
   authors: Amirhossein Ebrahimi Moghaddam, David Gerault and Paolo Palmieri
   preproceeding: preproceedings/21AmirhosseinEbrahimi.pdf
   slides: slides/Ebrahimi.pdf
+  doi: 10.1007/978-3-031-53368-6_21
